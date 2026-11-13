@@ -29,7 +29,9 @@ from reportlab.platypus import (
 
 from .content import load_chapter
 from .provenance import (
+    edition_directory,
     input_inventory,
+    load_edition,
     local_path,
     read_json,
     runtime_metadata,
@@ -54,11 +56,11 @@ class DeterministicCanvas(Canvas):
 
 
 class Design:
-    def __init__(self, root, output):
+    def __init__(self, root, output, edition='1.7.0'):
         self.root, self.output = root, output
-        self.edition = read_json(root / 'content/editions/1.7.0/en/edition.json')
+        self.edition = load_edition(root, edition)
         self.theme = read_json(root / 'templates/tagcast/theme.json')
-        self.screenshots, fonts, self.figures = verify_assets(root)
+        self.screenshots, fonts, self.figures = verify_assets(root, edition)
         for variant, alias in [('Regular', 'Guide'), ('Bold', 'Guide-Bold'),
                                ('Italic', 'Guide-Italic'), ('BoldItalic', 'Guide-BoldItalic')]:
             font = TTFont(alias, str(local_path(root, fonts[variant]['path'])))
@@ -78,7 +80,7 @@ class Design:
             values = dict(values)
             values['textColor'] = self.palette[values['textColor']]
             self.styles[name] = ParagraphStyle(name, **values)
-        base = root / 'content/editions/1.7.0/en'
+        base = edition_directory(root, edition)
         self.chapters = [load_chapter(local_path(root, (base / name).relative_to(root)))
                          for name in read_json(base / 'chapters.json')]
         ids = [chapter['id'] for chapter in self.chapters]
@@ -274,10 +276,13 @@ class Cover(Flowable):
         image = local_path(d.root, d.screenshots[cover['asset']]['path'])
         # ImageReader makes ReportLab name this XObject by its bytes rather than
         # the absolute checkout path (which would break reproducible builds).
-        c.drawImage(ImageReader(str(image)), -12, top - 535, width=d.cw + 24,
-                    height=(d.cw + 24) * 1828 / 2836, mask='auto')
+        reader = ImageReader(str(image))
+        iw, ih = reader.getSize()
+        image_offset = cover.get('image_y_offset', 0)
+        c.drawImage(reader, -12, top - 535 + image_offset, width=d.cw + 24,
+                    height=(d.cw + 24) * ih / iw, mask='auto')
         c.setFont('Guide', 9)
-        c.drawString(0, top - 558, cover['caption'])
+        c.drawString(0, top - 558 + image_offset, cover['caption'])
         c.setStrokeColor(colors.HexColor('#42606c'))
         c.line(0, 110, d.cw, 110)
         c.setFillColor(colors.white)
@@ -291,10 +296,10 @@ class Cover(Flowable):
         c.drawRightString(d.cw, 15, cover['date'])
 
 
-def build(root, output):
+def build(root, output, edition='1.7.0'):
     output.mkdir(parents=True, exist_ok=True)
     runtime = runtime_metadata(root)
-    design = Design(root, output)
+    design = Design(root, output, edition)
     destinations = {}
     for _ in range(5):
         stream = io.BytesIO()

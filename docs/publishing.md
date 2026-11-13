@@ -17,7 +17,8 @@ manifest hashes in the publication record. Get approval for that concrete bundle
 before writing to the Wiki. Editorial approval and publication approval are
 separate decisions.
 
-The initial milestone delivers the independently reproducible 1.7.0 reference
-edition only. Release-difference analysis, proposed chapter/screenshot updates
-and approval-bound content updates remain the next milestone. Release notes
-must never be the sole evidence for a functionality claim.
+The fixed 1.7.0 reference and the later 1.9.0 candidate have separate content,
+manifests, baselines and output directories. The 1.9.0 changes follow the release
+comparison report and the maintainer's request to build that edition. Release
+notes are never the sole evidence for a functionality claim. Neither the request
+to build nor successful validation authorizes Wiki publication.

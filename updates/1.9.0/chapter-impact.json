@@ -1,0 +1,1148 @@
+[
+  {
+    "chapter": 1,
+    "page": 3,
+    "title": "Your first session",
+    "id": "your-first-session",
+    "file": "content/editions/1.7.0/en/chapters/01-your-first-session.md",
+    "wiki": "Getting-started",
+    "figures": [],
+    "proposed_action": "update",
+    "change_ids": [
+      "D01",
+      "D04"
+    ],
+    "screenshot_ids": [],
+    "proposal": "Mention First setup for genuinely new profiles and use the current Play label; keep explicit sign-in and reviewed saves.",
+    "approval": "not_requested",
+    "target": "future 1.9.0 copy only"
+  },
+  {
+    "chapter": 2,
+    "page": 4,
+    "title": "Install and update",
+    "id": "install-and-update",
+    "file": "content/editions/1.7.0/en/chapters/02-install-and-update.md",
+    "wiki": "Getting-started",
+    "figures": [],
+    "proposed_action": "update",
+    "change_ids": [
+      "D07",
+      "D08",
+      "D10"
+    ],
+    "screenshot_ids": [
+      "S01"
+    ],
+    "proposal": "Add the Windows NSIS installer, the manual first upgrade to 1.9.0, supported later update routes and explicit installation confirmation.",
+    "approval": "not_requested",
+    "target": "future 1.9.0 copy only"
+  },
+  {
+    "chapter": 3,
+    "page": 5,
+    "title": "Connect your account",
+    "id": "connect-your-account",
+    "file": "content/editions/1.7.0/en/chapters/03-connect-your-account.md",
+    "wiki": "Connecting-to-iBroadcast",
+    "figures": [
+      {
+        "id": "figure-001",
+        "source": "docs/screenshots/2026-11-11-manual/connect-ibroadcast.png",
+        "crop": null
+      }
+    ],
+    "proposed_action": "retain",
+    "change_ids": [],
+    "screenshot_ids": [],
+    "proposal": "Keep the existing device/custom-client sign-in explanation. First setup reuses this flow; it adds no second login.",
+    "approval": "not_requested",
+    "target": "future 1.9.0 copy only"
+  },
+  {
+    "chapter": 4,
+    "page": 6,
+    "title": "Close and restart safely",
+    "id": "close-and-restart-safely",
+    "file": "content/editions/1.7.0/en/chapters/04-close-and-restart-safely.md",
+    "wiki": "Getting-started#closing-and-restarting-safely",
+    "figures": [],
+    "proposed_action": "update",
+    "change_ids": [
+      "D10"
+    ],
+    "screenshot_ids": [],
+    "proposal": "Distinguish ordinary Quit from Restart and install; keep accepted writes/read-back, Keep Tagcast open and reused-server limits.",
+    "approval": "not_requested",
+    "target": "future 1.9.0 copy only"
+  },
+  {
+    "chapter": 5,
+    "page": 7,
+    "title": "Find your way around",
+    "id": "find-your-way-around",
+    "file": "content/editions/1.7.0/en/chapters/05-find-your-way-around.md",
+    "wiki": "Browsing-and-discovery",
+    "figures": [
+      {
+        "id": "figure-002",
+        "source": "docs/screenshots/2026-11-11-interface/albums-continuous-random.png",
+        "crop": null
+      }
+    ],
+    "proposed_action": "update",
+    "change_ids": [
+      "D02",
+      "D03"
+    ],
+    "screenshot_ids": [
+      "S06",
+      "S09"
+    ],
+    "proposal": "Replace combined Filter and sort directions with Filters plus fixed sort buttons; explain sidebar/panel toggles and the removed Albums random-play shortcut.",
+    "approval": "not_requested",
+    "target": "future 1.9.0 copy only"
+  },
+  {
+    "chapter": 6,
+    "page": 8,
+    "title": "Choose the right view",
+    "id": "choose-the-right-view",
+    "file": "content/editions/1.7.0/en/chapters/06-choose-the-right-view.md",
+    "wiki": "Browsing-and-discovery",
+    "figures": [],
+    "proposed_action": "retain",
+    "change_ids": [],
+    "screenshot_ids": [],
+    "proposal": "Keep browse-category semantics. Explain Playlist versus native Playlists in the new panel topic rather than adding a misleading browse category.",
+    "approval": "not_requested",
+    "target": "future 1.9.0 copy only"
+  },
+  {
+    "chapter": 7,
+    "page": 9,
+    "title": "Overview and discovery",
+    "id": "overview-and-discovery",
+    "file": "content/editions/1.7.0/en/chapters/07-overview-and-discovery.md",
+    "wiki": "Browsing-and-discovery#overview-and-metadata-health",
+    "figures": [],
+    "proposed_action": "references",
+    "change_ids": [
+      "D12"
+    ],
+    "screenshot_ids": [
+      "S10"
+    ],
+    "proposal": "Point directly to Overview and metadata health. Keep current service-status semantics; a new image is optional.",
+    "approval": "not_requested",
+    "target": "future 1.9.0 copy only"
+  },
+  {
+    "chapter": 8,
+    "page": 10,
+    "title": "Read an album page",
+    "id": "read-an-album-page",
+    "file": "content/editions/1.7.0/en/chapters/08-read-an-album-page.md",
+    "wiki": "Album-details",
+    "figures": [
+      {
+        "id": "figure-003",
+        "source": "docs/screenshots/2026-11-11-interface/album-full-house.png",
+        "crop": null
+      }
+    ],
+    "proposed_action": "update",
+    "change_ids": [
+      "D04",
+      "D05"
+    ],
+    "screenshot_ids": [
+      "S04",
+      "S08"
+    ],
+    "proposal": "Use Play and the Shuffle album icon; place Add to playlist and Compare track list in More album actions. Preserve grouping/rating/tag rules.",
+    "approval": "not_requested",
+    "target": "future 1.9.0 copy only"
+  },
+  {
+    "chapter": 9,
+    "page": 11,
+    "title": "Continuous scroll and Random order",
+    "id": "continuous-scroll-and-random-order",
+    "file": "content/editions/1.7.0/en/chapters/09-continuous-scroll-and-random-order.md",
+    "wiki": "Browsing-and-discovery#continuous-scroll",
+    "figures": [
+      {
+        "id": "figure-027",
+        "source": "docs/screenshots/2026-11-11-interface/albums-continuous-random.png",
+        "crop": null
+      }
+    ],
+    "proposed_action": "update",
+    "change_ids": [
+      "D03"
+    ],
+    "screenshot_ids": [
+      "S09"
+    ],
+    "proposal": "Describe the fixed Random sort button and separate Filters control. Keep continuous browsing; restrict random-play guidance to discovery groups.",
+    "approval": "not_requested",
+    "target": "future 1.9.0 copy only"
+  },
+  {
+    "chapter": 10,
+    "page": 12,
+    "title": "Use the cache and refresh deliberately",
+    "id": "use-the-cache-and-refresh-deliberately",
+    "file": "content/editions/1.7.0/en/chapters/10-use-the-cache-and-refresh-deliberately.md",
+    "wiki": "Browsing-and-discovery#cached-browsing-and-library-refresh",
+    "figures": [
+      {
+        "id": "figure-028",
+        "source": "docs/screenshots/2026-11-11-guide/overview-redacted.png",
+        "crop": null
+      }
+    ],
+    "proposed_action": "illustration",
+    "change_ids": [
+      "D11"
+    ],
+    "screenshot_ids": [
+      "S10"
+    ],
+    "proposal": "Keep cache/refresh behavior. Optionally refresh figure-028 after privacy review; the redacted historical image remains usable.",
+    "approval": "not_requested",
+    "target": "future 1.9.0 copy only"
+  },
+  {
+    "chapter": 11,
+    "page": 13,
+    "title": "1001 Albums and local matching",
+    "id": "1001-albums-and-local-matching",
+    "file": "content/editions/1.7.0/en/chapters/11-1001-albums-and-local-matching.md",
+    "wiki": "1001-Albums",
+    "figures": [
+      {
+        "id": "figure-029",
+        "source": "docs/screenshots/2026-11-11-manual/1001-not-found.png",
+        "crop": null
+      },
+      {
+        "id": "figure-030",
+        "source": "docs/screenshots/2026-11-11-manual/1001-manual-match.png",
+        "crop": null
+      }
+    ],
+    "proposed_action": "illustration",
+    "change_ids": [
+      "D11"
+    ],
+    "screenshot_ids": [
+      "S11",
+      "S12",
+      "S13"
+    ],
+    "proposal": "Keep explicit local analysis/linking. Choose current examples with captions matching In your library versus Not found; preserve attribution.",
+    "approval": "not_requested",
+    "target": "future 1.9.0 copy only"
+  },
+  {
+    "chapter": 12,
+    "page": 14,
+    "title": "A narrow window",
+    "id": "a-narrow-window",
+    "file": "content/editions/1.7.0/en/chapters/12-a-narrow-window.md",
+    "wiki": "Album-details",
+    "figures": [
+      {
+        "id": "figure-031",
+        "source": "docs/screenshots/2026-11-11-manual/album-mobile.png",
+        "crop": null
+      }
+    ],
+    "proposed_action": "retain",
+    "change_ids": [],
+    "screenshot_ids": [],
+    "proposal": "Keep the stacked narrow-window explanation and labelled historical mobile image. All new captures are desktop frames, not mobile replacements.",
+    "approval": "not_requested",
+    "target": "future 1.9.0 copy only"
+  },
+  {
+    "chapter": 13,
+    "page": 15,
+    "title": "Play music and manage the queue",
+    "id": "play-music-and-manage-the-queue",
+    "file": "content/editions/1.7.0/en/chapters/13-play-music-and-manage-the-queue.md",
+    "wiki": "Playback-and-queue",
+    "figures": [
+      {
+        "id": "figure-024",
+        "source": "docs/screenshots/2026-11-11-interface/now-playing-lyrics-queue.png",
+        "crop": null
+      }
+    ],
+    "proposed_action": "update",
+    "change_ids": [
+      "D02",
+      "D04"
+    ],
+    "screenshot_ids": [
+      "S03"
+    ],
+    "proposal": "Explain the Playlist panel as the existing local queue, Devices beside Play queue, and Details as a separate playback-following tab.",
+    "approval": "not_requested",
+    "target": "future 1.9.0 copy only"
+  },
+  {
+    "chapter": 14,
+    "page": 16,
+    "title": "Expanded Now playing and CD view",
+    "id": "expanded-now-playing-and-cd-view",
+    "file": "content/editions/1.7.0/en/chapters/14-expanded-now-playing-and-cd-view.md",
+    "wiki": "Playback-and-queue#optional-cd-view",
+    "figures": [
+      {
+        "id": "figure-025",
+        "source": "docs/screenshots/2026-11-11-interface/fullscreen-cd-lyrics.png",
+        "crop": null
+      }
+    ],
+    "proposed_action": "references",
+    "change_ids": [
+      "D12"
+    ],
+    "screenshot_ids": [],
+    "proposal": "Point to Now playing#optional-cd-view. Keep the existing Cover/CD behavior and labelled example.",
+    "approval": "not_requested",
+    "target": "future 1.9.0 copy only"
+  },
+  {
+    "chapter": 15,
+    "page": 17,
+    "title": "Mini Player, sound and quality",
+    "id": "mini-player-sound-and-quality",
+    "file": "content/editions/1.7.0/en/chapters/15-mini-player-sound-and-quality.md",
+    "wiki": "Playback-and-queue#desktop-mini-player",
+    "figures": [
+      {
+        "id": "figure-005",
+        "source": "docs/screenshots/2026-11-11-guide/mini-player.png",
+        "crop": null
+      }
+    ],
+    "proposed_action": "references",
+    "change_ids": [
+      "D12"
+    ],
+    "screenshot_ids": [],
+    "proposal": "Point to Now playing#desktop-mini-player. Mini Player, AirPlay and stream-quality semantics are unchanged.",
+    "approval": "not_requested",
+    "target": "future 1.9.0 copy only"
+  },
+  {
+    "chapter": 16,
+    "page": 18,
+    "title": "Experimental Gapless playback",
+    "id": "experimental-gapless-playback",
+    "file": "content/editions/1.7.0/en/chapters/16-experimental-gapless-playback.md",
+    "wiki": "Gapless-playback",
+    "figures": [],
+    "proposed_action": "retain",
+    "change_ids": [],
+    "screenshot_ids": [
+      "S05"
+    ],
+    "proposal": "Keep experimental/off-by-default Gapless limits. First setup is an additional entry point; the capture does not establish new audio support.",
+    "approval": "not_requested",
+    "target": "future 1.9.0 copy only"
+  },
+  {
+    "chapter": 17,
+    "page": 19,
+    "title": "Eight music visualizations",
+    "id": "eight-music-visualizations",
+    "file": "content/editions/1.7.0/en/chapters/17-eight-music-visualizations.md",
+    "wiki": "Playback-and-queue#eight-optional-music-visualizations",
+    "figures": [
+      {
+        "id": "figure-032",
+        "source": "docs/screenshots/2026-11-11-visualizations/milkdrop-aurora.png",
+        "crop": null
+      },
+      {
+        "id": "figure-033",
+        "source": "docs/screenshots/2026-11-11-visualizations/milkdrop-orbit.png",
+        "crop": null
+      },
+      {
+        "id": "figure-034",
+        "source": "docs/screenshots/2026-11-11-visualizations/milkdrop-ribbons.png",
+        "crop": null
+      },
+      {
+        "id": "figure-035",
+        "source": "docs/screenshots/2026-11-11-visualizations/led-spectrum.png",
+        "crop": null
+      }
+    ],
+    "proposed_action": "illustration",
+    "change_ids": [
+      "D11",
+      "D12"
+    ],
+    "screenshot_ids": [
+      "S14"
+    ],
+    "proposal": "Optionally refresh the Ribbon example, keeping the other seven effects and their historical labels; point to Now playing.",
+    "approval": "not_requested",
+    "target": "future 1.9.0 copy only"
+  },
+  {
+    "chapter": 18,
+    "page": 20,
+    "title": "Visualization controls and rotation",
+    "id": "visualization-controls-and-rotation",
+    "file": "content/editions/1.7.0/en/chapters/18-visualization-controls-and-rotation.md",
+    "wiki": "Playback-and-queue#eight-optional-music-visualizations",
+    "figures": [
+      {
+        "id": "figure-036",
+        "source": "docs/screenshots/2026-11-11-visualizations/oscilloscope.png",
+        "crop": null
+      },
+      {
+        "id": "figure-037",
+        "source": "docs/screenshots/2026-11-11-visualizations/neon-ring.png",
+        "crop": null
+      },
+      {
+        "id": "figure-038",
+        "source": "docs/screenshots/2026-11-11-visualizations/starfield.png",
+        "crop": null
+      },
+      {
+        "id": "figure-039",
+        "source": "docs/screenshots/2026-11-11-visualizations/waterfall.png",
+        "crop": null
+      }
+    ],
+    "proposed_action": "references",
+    "change_ids": [
+      "D12"
+    ],
+    "screenshot_ids": [
+      "S14"
+    ],
+    "proposal": "Point to Now playing#eight-optional-music-visualizations. Rotation, timing and reduced-motion semantics stay unchanged.",
+    "approval": "not_requested",
+    "target": "future 1.9.0 copy only"
+  },
+  {
+    "chapter": 19,
+    "page": 21,
+    "title": "Recover from an audio interruption",
+    "id": "recover-from-an-audio-interruption",
+    "file": "content/editions/1.7.0/en/chapters/19-recover-from-an-audio-interruption.md",
+    "wiki": "Playback-and-queue#playback-error-recovery",
+    "figures": [],
+    "proposed_action": "retain",
+    "change_ids": [],
+    "screenshot_ids": [],
+    "proposal": "Keep the one controlled audio-recovery attempt and existing fallback limits; do not claim broader recovery support.",
+    "approval": "not_requested",
+    "target": "future 1.9.0 copy only"
+  },
+  {
+    "chapter": 20,
+    "page": 22,
+    "title": "Tags, ratings and favourites",
+    "id": "tags-ratings-and-favourites",
+    "file": "content/editions/1.7.0/en/chapters/20-tags-ratings-and-favourites.md",
+    "wiki": "Tags",
+    "figures": [
+      {
+        "id": "figure-006",
+        "source": "docs/screenshots/2026-11-11-manual/tag-manager.png",
+        "crop": null
+      }
+    ],
+    "proposed_action": "retain",
+    "change_ids": [],
+    "screenshot_ids": [],
+    "proposal": "Keep native tags, ratings and local favourites unchanged; retain the explicitly labelled older tag-manager example.",
+    "approval": "not_requested",
+    "target": "future 1.9.0 copy only"
+  },
+  {
+    "chapter": 21,
+    "page": 23,
+    "title": "Playlists and folders",
+    "id": "playlists-and-folders",
+    "file": "content/editions/1.7.0/en/chapters/21-playlists-and-folders.md",
+    "wiki": "Playlists",
+    "figures": [
+      {
+        "id": "figure-007",
+        "source": "docs/screenshots/2026-11-11-guide/playlist-details.png",
+        "crop": null
+      }
+    ],
+    "proposed_action": "update",
+    "change_ids": [
+      "D04"
+    ],
+    "screenshot_ids": [],
+    "proposal": "Change the album entry path to More album actions > Add to playlist. Keep playlist review, duplicate-position and queue distinctions.",
+    "approval": "not_requested",
+    "target": "future 1.9.0 copy only"
+  },
+  {
+    "chapter": 22,
+    "page": 24,
+    "title": "Import a playlist",
+    "id": "import-a-playlist",
+    "file": "content/editions/1.7.0/en/chapters/22-import-a-playlist.md",
+    "wiki": "Importing-playlists",
+    "figures": [
+      {
+        "id": "figure-008",
+        "source": "docs/screenshots/2026-11-11-guide/playlist-import-columns.png",
+        "crop": null
+      }
+    ],
+    "proposed_action": "retain",
+    "change_ids": [],
+    "screenshot_ids": [],
+    "proposal": "No CSV mapping/matching change identified in the release source range; preserve local/import review boundaries.",
+    "approval": "not_requested",
+    "target": "future 1.9.0 copy only"
+  },
+  {
+    "chapter": 23,
+    "page": 25,
+    "title": "Keep import progress and review order",
+    "id": "keep-import-progress-and-review-order",
+    "file": "content/editions/1.7.0/en/chapters/23-keep-import-progress-and-review-order.md",
+    "wiki": "Importing-playlists#pause-and-resume-csv-imports",
+    "figures": [
+      {
+        "id": "figure-009",
+        "source": "docs/screenshots/2026-11-11-guide/playlist-import-choose.png",
+        "crop": null
+      }
+    ],
+    "proposed_action": "retain",
+    "change_ids": [],
+    "screenshot_ids": [],
+    "proposal": "Keep paused CSV import and reviewed order behavior. Existing captures remain useful historical examples.",
+    "approval": "not_requested",
+    "target": "future 1.9.0 copy only"
+  },
+  {
+    "chapter": 24,
+    "page": 26,
+    "title": "Playlist positions and uncertain results",
+    "id": "playlist-positions-and-uncertain-results",
+    "file": "content/editions/1.7.0/en/chapters/24-playlist-positions-and-uncertain-results.md",
+    "wiki": "Playlists#appending-and-duplicate-positions",
+    "figures": [
+      {
+        "id": "figure-044",
+        "source": "docs/screenshots/2026-11-11-guide/playlist-order.png",
+        "crop": null
+      }
+    ],
+    "proposed_action": "retain",
+    "change_ids": [],
+    "screenshot_ids": [],
+    "proposal": "Retain F2-02: append with intentional duplicate positions is still unverified. The new comparison does not change append semantics.",
+    "approval": "not_requested",
+    "target": "future 1.9.0 copy only"
+  },
+  {
+    "chapter": 25,
+    "page": 27,
+    "title": "Favourites and native ratings",
+    "id": "favourites-and-native-ratings",
+    "file": "content/editions/1.7.0/en/chapters/25-favourites-and-native-ratings.md",
+    "wiki": "Ratings-and-favourites",
+    "figures": [
+      {
+        "id": "figure-046",
+        "source": "docs/screenshots/2026-11-11-guide/favourites-light.png",
+        "crop": null
+      }
+    ],
+    "proposed_action": "retain",
+    "change_ids": [],
+    "screenshot_ids": [],
+    "proposal": "Keep local hearts versus native ratings and account/profile storage distinctions.",
+    "approval": "not_requested",
+    "target": "future 1.9.0 copy only"
+  },
+  {
+    "chapter": 26,
+    "page": 28,
+    "title": "Edit album information",
+    "id": "edit-album-information",
+    "file": "content/editions/1.7.0/en/chapters/26-edit-album-information.md",
+    "wiki": "Editing-metadata",
+    "figures": [
+      {
+        "id": "figure-010",
+        "source": "docs/screenshots/2026-11-11-interface/editor-album.png",
+        "crop": null
+      }
+    ],
+    "proposed_action": "update",
+    "change_ids": [
+      "D05"
+    ],
+    "screenshot_ids": [],
+    "proposal": "Link the explicit comparison-correction route to the existing editor/review; distinguish it from ordinary automatic source suggestions.",
+    "approval": "not_requested",
+    "target": "future 1.9.0 copy only"
+  },
+  {
+    "chapter": 27,
+    "page": 29,
+    "title": "Tracks, credits and compilations",
+    "id": "tracks-credits-and-compilations",
+    "file": "content/editions/1.7.0/en/chapters/27-tracks-credits-and-compilations.md",
+    "wiki": "Artists-and-credits",
+    "figures": [
+      {
+        "id": "figure-011",
+        "source": "docs/screenshots/2026-11-11-guide/editor-tracks.png",
+        "crop": null
+      }
+    ],
+    "proposed_action": "update",
+    "change_ids": [
+      "D05"
+    ],
+    "screenshot_ids": [],
+    "proposal": "Explain chosen title/artist-credit adoption, preservation of existing native IDs/roles/phrases, and no number/year/duration import.",
+    "approval": "not_requested",
+    "target": "future 1.9.0 copy only"
+  },
+  {
+    "chapter": 28,
+    "page": 30,
+    "title": "Review, save and confirm",
+    "id": "review-save-and-confirm",
+    "file": "content/editions/1.7.0/en/chapters/28-review-save-and-confirm.md",
+    "wiki": "Saving-and-history",
+    "figures": [
+      {
+        "id": "figure-012",
+        "source": "docs/screenshots/2026-11-11-manual/composer-review.png",
+        "crop": null
+      }
+    ],
+    "proposed_action": "update",
+    "change_ids": [
+      "D05",
+      "D06"
+    ],
+    "screenshot_ids": [
+      "S02"
+    ],
+    "proposal": "Keep save guards and result meanings. Describe History actions above entries and clearing only local history/Undo after checks finish.",
+    "approval": "not_requested",
+    "target": "future 1.9.0 copy only"
+  },
+  {
+    "chapter": 29,
+    "page": 31,
+    "title": "Compare artwork and artist images",
+    "id": "compare-artwork-and-artist-images",
+    "file": "content/editions/1.7.0/en/chapters/29-compare-artwork-and-artist-images.md",
+    "wiki": "Artwork-and-artist-images",
+    "figures": [
+      {
+        "id": "figure-013",
+        "source": "docs/screenshots/2026-11-11-guide/album-cover-review.png",
+        "crop": null
+      }
+    ],
+    "proposed_action": "retain",
+    "change_ids": [],
+    "screenshot_ids": [],
+    "proposal": "Keep separate artwork comparison/save and limited artwork Undo; track-list comparison is a different workflow.",
+    "approval": "not_requested",
+    "target": "future 1.9.0 copy only"
+  },
+  {
+    "chapter": 30,
+    "page": 32,
+    "title": "Follow a checked save",
+    "id": "follow-a-checked-save",
+    "file": "content/editions/1.7.0/en/chapters/30-follow-a-checked-save.md",
+    "wiki": "Saving-and-history",
+    "figures": [
+      {
+        "id": "figure-040",
+        "source": "docs/screenshots/2026-11-11-manual/composer-confirmed.png",
+        "crop": null
+      },
+      {
+        "id": "figure-041",
+        "source": "docs/screenshots/2026-11-11-manual/artwork-saving.png",
+        "crop": null
+      }
+    ],
+    "proposed_action": "update",
+    "change_ids": [
+      "D06"
+    ],
+    "screenshot_ids": [
+      "S02"
+    ],
+    "proposal": "Use the current History example for Checking/read-back and relocated actions. Retain the genuinely confirmed composer example.",
+    "approval": "not_requested",
+    "target": "future 1.9.0 copy only"
+  },
+  {
+    "chapter": 31,
+    "page": 33,
+    "title": "Lyrics that follow the music",
+    "id": "lyrics-that-follow-the-music",
+    "file": "content/editions/1.7.0/en/chapters/31-lyrics-that-follow-the-music.md",
+    "wiki": "Lyrics#now-playing-lyrics",
+    "figures": [
+      {
+        "id": "figure-026",
+        "source": "docs/screenshots/2026-11-11-interface/fullscreen-cover-lyrics.png",
+        "crop": null
+      }
+    ],
+    "proposed_action": "illustration",
+    "change_ids": [
+      "D11"
+    ],
+    "screenshot_ids": [
+      "S03"
+    ],
+    "proposal": "Optionally use the new LRCLIB Now playing example. Keep native-only default, source order, visibility and cache/save boundaries.",
+    "approval": "not_requested",
+    "target": "future 1.9.0 copy only"
+  },
+  {
+    "chapter": 32,
+    "page": 34,
+    "title": "Find, edit or import saved lyrics",
+    "id": "find-edit-or-import-saved-lyrics",
+    "file": "content/editions/1.7.0/en/chapters/32-find-edit-or-import-saved-lyrics.md",
+    "wiki": "Importing-lyrics",
+    "figures": [
+      {
+        "id": "figure-015",
+        "source": "docs/screenshots/2026-11-11-guide/lyrics-import-matching.png",
+        "crop": null
+      }
+    ],
+    "proposed_action": "references",
+    "change_ids": [
+      "D12"
+    ],
+    "screenshot_ids": [],
+    "proposal": "Link individual native lyrics to Lyrics and keep Importing lyrics for the album sidecar workflow; no new lyrics save behavior.",
+    "approval": "not_requested",
+    "target": "future 1.9.0 copy only"
+  },
+  {
+    "chapter": 33,
+    "page": 35,
+    "title": "Review linked lyrics separately",
+    "id": "review-linked-lyrics-separately",
+    "file": "content/editions/1.7.0/en/chapters/33-review-linked-lyrics-separately.md",
+    "wiki": "Importing-lyrics",
+    "figures": [
+      {
+        "id": "figure-042",
+        "source": "docs/screenshots/2026-11-11-guide/lyrics-import-review.png",
+        "crop": null
+      }
+    ],
+    "proposed_action": "retain",
+    "change_ids": [],
+    "screenshot_ids": [],
+    "proposal": "Keep explicit linked-track review, serialization, freshness and uncertainty rules. Comparison handoff is not an album lyrics import change.",
+    "approval": "not_requested",
+    "target": "future 1.9.0 copy only"
+  },
+  {
+    "chapter": 34,
+    "page": 36,
+    "title": "Review metadata cleanup",
+    "id": "review-metadata-cleanup",
+    "file": "content/editions/1.7.0/en/chapters/34-review-metadata-cleanup.md",
+    "wiki": "Metadata-cleanup",
+    "figures": [
+      {
+        "id": "figure-016",
+        "source": "docs/screenshots/2026-10-22/cleanup-genre-labels.png",
+        "crop": [
+          0.11,
+          0.06,
+          0.91,
+          0.95
+        ]
+      }
+    ],
+    "proposed_action": "retain",
+    "change_ids": [],
+    "screenshot_ids": [],
+    "proposal": "Keep reviewed cleanup behavior, batches, stop/resume and reports. No new cleanup category is introduced.",
+    "approval": "not_requested",
+    "target": "future 1.9.0 copy only"
+  },
+  {
+    "chapter": 35,
+    "page": 37,
+    "title": "Reconcile album and track years",
+    "id": "reconcile-album-and-track-years",
+    "file": "content/editions/1.7.0/en/chapters/35-reconcile-album-and-track-years.md",
+    "wiki": "Album-and-track-years",
+    "figures": [
+      {
+        "id": "figure-017",
+        "source": "docs/screenshots/2026-10-28-year-review/year-comparison.png",
+        "crop": [
+          0.1,
+          0.05,
+          0.89,
+          0.955
+        ]
+      }
+    ],
+    "proposed_action": "retain",
+    "change_ids": [],
+    "screenshot_ids": [],
+    "proposal": "Keep explicit known-year choices and no automatic oldest/majority inference.",
+    "approval": "not_requested",
+    "target": "future 1.9.0 copy only"
+  },
+  {
+    "chapter": 36,
+    "page": 38,
+    "title": "Duplicate copies and trash",
+    "id": "duplicate-copies-and-trash",
+    "file": "content/editions/1.7.0/en/chapters/36-duplicate-copies-and-trash.md",
+    "wiki": "Trash-and-duplicates",
+    "figures": [
+      {
+        "id": "figure-018",
+        "source": "docs/screenshots/duplicate-tracks-upload-suggestions.png",
+        "crop": [
+          0.17,
+          0.19,
+          0.98,
+          0.93
+        ]
+      }
+    ],
+    "proposed_action": "update",
+    "change_ids": [
+      "D03"
+    ],
+    "screenshot_ids": [],
+    "proposal": "Change Albums > Filter and sort > Duplicate tracks to Albums > Filters > Duplicate tracks. Preserve all trash/review safeguards.",
+    "approval": "not_requested",
+    "target": "future 1.9.0 copy only"
+  },
+  {
+    "chapter": 37,
+    "page": 39,
+    "title": "Merge album fragments",
+    "id": "merge-album-fragments",
+    "file": "content/editions/1.7.0/en/chapters/37-merge-album-fragments.md",
+    "wiki": "Merge-albums",
+    "figures": [
+      {
+        "id": "figure-019",
+        "source": "docs/screenshots/2026-10-27-album-merge/destination-album.png",
+        "crop": null
+      }
+    ],
+    "proposed_action": "retain",
+    "change_ids": [],
+    "screenshot_ids": [],
+    "proposal": "Keep merge eligibility, selected destination, membership review and nontransactional outcomes.",
+    "approval": "not_requested",
+    "target": "future 1.9.0 copy only"
+  },
+  {
+    "chapter": 38,
+    "page": 40,
+    "title": "Split an album deliberately",
+    "id": "split-an-album-deliberately",
+    "file": "content/editions/1.7.0/en/chapters/38-split-an-album-deliberately.md",
+    "wiki": "Split-albums",
+    "figures": [
+      {
+        "id": "figure-043",
+        "source": "docs/screenshots/2026-11-07-album-split/split-selection.png",
+        "crop": null
+      }
+    ],
+    "proposed_action": "retain",
+    "change_ids": [],
+    "screenshot_ids": [],
+    "proposal": "Keep album splitting, explicit subset review and nontransactional outcomes. Comparison does not split or move tracks.",
+    "approval": "not_requested",
+    "target": "future 1.9.0 copy only"
+  },
+  {
+    "chapter": 39,
+    "page": 41,
+    "title": "Upload local music",
+    "id": "upload-local-music",
+    "file": "content/editions/1.7.0/en/chapters/39-upload-local-music.md",
+    "wiki": "Music-uploads",
+    "figures": [
+      {
+        "id": "figure-020",
+        "source": "docs/screenshots/2026-11-11-guide/upload-review.png",
+        "crop": null
+      }
+    ],
+    "proposed_action": "retain",
+    "change_ids": [],
+    "screenshot_ids": [],
+    "proposal": "Keep explicit Start uploads, permission and uncertain-upload rules. Software updates do not add music uploads.",
+    "approval": "not_requested",
+    "target": "future 1.9.0 copy only"
+  },
+  {
+    "chapter": 40,
+    "page": 42,
+    "title": "Download album copies",
+    "id": "download-album-copies",
+    "file": "content/editions/1.7.0/en/chapters/40-download-album-copies.md",
+    "wiki": "Downloads",
+    "figures": [
+      {
+        "id": "figure-045",
+        "source": "docs/screenshots/2026-11-11-guide/download-review.png",
+        "crop": null
+      }
+    ],
+    "proposed_action": "retain",
+    "change_ids": [],
+    "screenshot_ids": [],
+    "proposal": "Keep explicit Start downloads and audio-copy rules. Download update is a separate desktop-software operation.",
+    "approval": "not_requested",
+    "target": "future 1.9.0 copy only"
+  },
+  {
+    "chapter": 41,
+    "page": 43,
+    "title": "Download sources and file integrity",
+    "id": "download-sources-and-file-integrity",
+    "file": "content/editions/1.7.0/en/chapters/41-download-sources-and-file-integrity.md",
+    "wiki": "Downloads#quality-and-embedded-metadata",
+    "figures": [],
+    "proposed_action": "retain",
+    "change_ids": [],
+    "screenshot_ids": [],
+    "proposal": "Keep original/stream distinctions and .ibfetch.json integrity. Updater SHA-512 is not the audio-download contract.",
+    "approval": "not_requested",
+    "target": "future 1.9.0 copy only"
+  },
+  {
+    "chapter": 42,
+    "page": 44,
+    "title": "Language and sidebar",
+    "id": "language-and-sidebar",
+    "file": "content/editions/1.7.0/en/chapters/42-language-and-sidebar.md",
+    "wiki": "Settings-and-help#interface-language",
+    "figures": [
+      {
+        "id": "figure-021",
+        "source": "docs/screenshots/2026-11-11-guide/settings-interface.png",
+        "crop": null
+      }
+    ],
+    "proposed_action": "update",
+    "change_ids": [
+      "D01",
+      "D02"
+    ],
+    "screenshot_ids": [],
+    "proposal": "Add the independent sidebar collapse preference and the Interface > First setup entry; keep language and shortcut ordering rules.",
+    "approval": "not_requested",
+    "target": "future 1.9.0 copy only"
+  },
+  {
+    "chapter": 43,
+    "page": 45,
+    "title": "Playback preferences",
+    "id": "playback-preferences",
+    "file": "content/editions/1.7.0/en/chapters/43-playback-preferences.md",
+    "wiki": "Settings-and-help#playback",
+    "figures": [
+      {
+        "id": "figure-022",
+        "source": "docs/screenshots/2026-11-11-guide/settings-playback.png",
+        "crop": null
+      }
+    ],
+    "proposed_action": "update",
+    "change_ids": [
+      "D01",
+      "D02"
+    ],
+    "screenshot_ids": [
+      "S05"
+    ],
+    "proposal": "Add the setup cross-reference and current Devices location. Preserve save timing, opt-ins and Free-account limits.",
+    "approval": "not_requested",
+    "target": "future 1.9.0 copy only"
+  },
+  {
+    "chapter": 44,
+    "page": 46,
+    "title": "Themes and custom colours",
+    "id": "themes-and-custom-colours",
+    "file": "content/editions/1.7.0/en/chapters/44-themes-and-custom-colours.md",
+    "wiki": "Custom-themes",
+    "figures": [
+      {
+        "id": "figure-023",
+        "source": "docs/screenshots/2026-11-11-guide/settings-appearance.png",
+        "crop": null
+      }
+    ],
+    "proposed_action": "update",
+    "change_ids": [
+      "D13",
+      "E01"
+    ],
+    "screenshot_ids": [
+      "S07"
+    ],
+    "proposal": "Add portable Amber Midnight under My themes, not built-ins. Correct the legacy red/pink colour attribution in the future copy only.",
+    "approval": "not_requested",
+    "target": "future 1.9.0 copy only"
+  },
+  {
+    "chapter": 45,
+    "page": 47,
+    "title": "Settings reference",
+    "id": "settings-reference",
+    "file": "content/editions/1.7.0/en/chapters/45-settings-reference.md",
+    "wiki": "Settings-and-help",
+    "figures": [],
+    "proposed_action": "update",
+    "change_ids": [
+      "D01",
+      "D07",
+      "D09"
+    ],
+    "screenshot_ids": [
+      "S01",
+      "S05"
+    ],
+    "proposal": "Add First setup and separate desktop-profile automatic download/skip preferences from the backend automatic release-check setting.",
+    "approval": "not_requested",
+    "target": "future 1.9.0 copy only"
+  },
+  {
+    "chapter": 46,
+    "page": 48,
+    "title": "Export metadata and keep records",
+    "id": "export-metadata-and-keep-records",
+    "file": "content/editions/1.7.0/en/chapters/46-export-metadata-and-keep-records.md",
+    "wiki": "Exporting-library-metadata",
+    "figures": [],
+    "proposed_action": "update",
+    "change_ids": [
+      "D01",
+      "D06",
+      "D09"
+    ],
+    "screenshot_ids": [
+      "S02"
+    ],
+    "proposal": "Locate History export above entries; keep metadata JSON/CSV distinct. Include saved setup progress and desktop update preferences in restart/storage guidance.",
+    "approval": "not_requested",
+    "target": "future 1.9.0 copy only"
+  },
+  {
+    "chapter": 47,
+    "page": 49,
+    "title": "Storage, privacy and safe recovery",
+    "id": "storage-privacy-and-safe-recovery",
+    "file": "content/editions/1.7.0/en/chapters/47-storage-privacy-and-safe-recovery.md",
+    "wiki": "Whats-saved-where",
+    "figures": [],
+    "proposed_action": "update",
+    "change_ids": [
+      "D01",
+      "D05",
+      "D09"
+    ],
+    "screenshot_ids": [],
+    "proposal": "Add public MusicBrainz comparison queries, GitHub package downloads/cache and local setup/update preferences; retain credential and native-write boundaries.",
+    "approval": "not_requested",
+    "target": "future 1.9.0 copy only"
+  },
+  {
+    "chapter": 48,
+    "page": 50,
+    "title": "Troubleshooting",
+    "id": "troubleshooting",
+    "file": "content/editions/1.7.0/en/chapters/48-troubleshooting.md",
+    "wiki": "Troubleshooting",
+    "figures": [],
+    "proposed_action": "update",
+    "change_ids": [
+      "D01",
+      "D02",
+      "D05",
+      "D08",
+      "D10"
+    ],
+    "screenshot_ids": [],
+    "proposal": "Add platform-specific manual-update reasons, postponed installs, expected existing-profile setup behavior, playback-following Details and incomplete/provider comparison results.",
+    "approval": "not_requested",
+    "target": "future 1.9.0 copy only"
+  },
+  {
+    "chapter": 49,
+    "page": 51,
+    "title": "Keyboard, limits and terminology",
+    "id": "keyboard-limits-and-terminology",
+    "file": "content/editions/1.7.0/en/chapters/49-keyboard-limits-and-terminology.md",
+    "wiki": "Settings-and-help#keyboard-and-dialog-controls",
+    "figures": [],
+    "proposed_action": "update",
+    "change_ids": [
+      "D02",
+      "D05"
+    ],
+    "screenshot_ids": [],
+    "proposal": "Add Playlist/Details tab keys and separate comparison limits: 20 editions/page, 200/query, 1,000 audio tracks. Preserve existing limits.",
+    "approval": "not_requested",
+    "target": "future 1.9.0 copy only"
+  },
+  {
+    "chapter": 50,
+    "page": 52,
+    "title": "About this edition",
+    "id": "about-this-edition",
+    "file": "content/editions/1.7.0/en/chapters/50-about-this-edition.md",
+    "wiki": "Home",
+    "figures": [],
+    "proposed_action": "update",
+    "change_ids": [
+      "D14"
+    ],
+    "screenshot_ids": [],
+    "proposal": "Prepare future 1.9.0 edition metadata and pinned source/asset revisions, with a new document date chosen at approval; leave this 1.7.0 file intact.",
+    "approval": "not_requested",
+    "target": "future 1.9.0 copy only"
+  }
+]

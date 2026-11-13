@@ -52,6 +52,26 @@ historical edition date. It pins the released app commit separately from the
 later documentation/image commit and Wiki text baseline. Start a later edition
 from an approved snapshot and keep the earlier one intact.
 
-The renderer currently targets the 1.7.0 reference edition. A release comparison
-and content-approval workflow is a later milestone; there is no automatic
-rewriting of chapters in this implementation.
+The renderer selects an edition explicitly with `--edition VERSION`; omitted
+means the fixed 1.7.0 reference. Supply a separate output directory for each later
+edition so its manifest/reports do not replace earlier build records:
+
+```sh
+uv run --frozen tagcast-manual build --edition 1.9.0 --output output/pdf/1.9.0
+uv run --frozen tagcast-manual validate --edition 1.9.0 \
+  output/pdf/1.9.0/Tagcast-1.9.0-User-Manual.pdf --output output/pdf/1.9.0
+uv run --frozen tagcast-manual verify --edition 1.9.0 --output output/pdf/1.9.0
+```
+
+Later editions use `manifests/VERSION/screenshots.json` and `figures.json`, with
+the shared, unchanged font/legacy manifests. Keep copied originals byte for byte,
+record the released source commit separately from the unknown capture runtime,
+and label example versions and running/checking states accurately.
+
+Validation checks source text, navigation, images, bounds and orphaned pages.
+After inspecting every rendered page, capture the initial edition baseline with
+`tools/capture_edition_reference.py`. It refuses to replace an existing baseline
+and cannot select 1.7.0. Geometry/image and pixel regressions then fail validation.
+A candidate baseline records the inspected layout, not maintainer publication
+approval. Content changes require editorial review and an explicit baseline
+review; builds and CI never rewrite content or refresh visual references.

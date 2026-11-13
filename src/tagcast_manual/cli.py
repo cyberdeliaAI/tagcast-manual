@@ -9,12 +9,12 @@ import sys
 import tempfile
 from pathlib import Path
 
-from .provenance import input_inventory, read_json, sha256
+from .provenance import input_inventory, load_edition, read_json, sha256
 from .render import build
 from .validate import validate
 
 
-def verify(root, output):
+def verify(root, output, edition='1.7.0'):
     output.mkdir(parents=True, exist_ok=True)
     inventory = input_inventory(root)
     results = []
@@ -38,7 +38,8 @@ def verify(root, output):
                     'sys.addaudithook(deny_network)\n'
                     'from tagcast_manual.cli import main\nmain()\n')
             process = subprocess.run([sys.executable, '-c', code, '--root', str(checkout),
-                                      'build', '--output', str(checkout / 'result')], cwd=checkout,
+                                      'build', '--edition', edition,
+                                      '--output', str(checkout / 'result')], cwd=checkout,
                                      env=environment, capture_output=True, text=True)
             if process.returncode:
                 raise ValueError(f'Clean build failed:\n{process.stderr}')
@@ -50,8 +51,8 @@ def verify(root, output):
                     shutil.copyfile(path, output / path.name)
     if results[0] != results[1]:
         raise ValueError(f'Clean builds differ: {results}')
-    edition = read_json(root / 'content/editions/1.7.0/en/edition.json')
-    report = validate(root, output / edition['filename'], output)
+    metadata = load_edition(root, edition)
+    report = validate(root, output / metadata['filename'], output, edition=edition)
     result = dict(independent_builds=results, network_disabled=True,
                   changed_environment=['working directory', 'PYTHONHASHSEED', 'TZ', 'SOURCE_DATE_EPOCH'],
                   validation=report)
@@ -65,6 +66,7 @@ def main():
     subparsers = parser.add_subparsers(dest='command', required=True)
     for command in ['build', 'validate', 'verify']:
         sub = subparsers.add_parser(command)
+        sub.add_argument('--edition', default='1.7.0', help='Versioned English edition (default: 1.7.0)')
         sub.add_argument('--output', type=Path, default=Path('output/pdf'))
         if command == 'validate':
             sub.add_argument('pdf', type=Path)
@@ -72,12 +74,12 @@ def main():
     root, output = args.root.resolve(), args.output.resolve()
     try:
         if args.command == 'build':
-            pdf, manifest = build(root, output)
+            pdf, manifest = build(root, output, args.edition)
             result = dict(pdf=str(pdf), pages=manifest['pages'], sha256=manifest['pdf']['sha256'])
         elif args.command == 'validate':
-            result = validate(root, args.pdf.resolve(), output)
+            result = validate(root, args.pdf.resolve(), output, edition=args.edition)
         else:
-            result = verify(root, output)
+            result = verify(root, output, args.edition)
     except (ValueError, KeyError, FileNotFoundError) as error:
         parser.exit(1, f'{error}\n')
     print(json.dumps(result, indent=2))

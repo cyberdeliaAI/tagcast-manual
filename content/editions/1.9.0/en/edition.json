@@ -1,0 +1,28 @@
+{
+  "app_version": "1.9.0",
+  "document_revision": 1,
+  "document_date": "2026-11-13",
+  "language": "en",
+  "release_commit": "440199a359fd2df2fd615e3222fb36afbc13427c",
+  "documentation_commit": "440199a359fd2df2fd615e3222fb36afbc13427c",
+  "wiki_commit": "095b8c1f1189a4cb5237d3d3cd9089924a8caefa",
+  "filename": "Tagcast-1.9.0-User-Manual.pdf",
+  "title": "Tagcast 1.9.0 - Illustrated User Manual",
+  "subject": "Browsing, playback, metadata, lyrics and library organisation",
+  "contents_lead": "Start with the first session, or jump directly to a task. Every entry below is clickable.",
+  "contents_note": {
+    "title": "Read screenshots as examples",
+    "text": "Text describes version 1.9.0. Captions identify earlier interfaces and illustrative version numbers. Counts and metadata belong to the pictured library. Screenshots show examples, not additional compatibility tests."
+  },
+  "cover": {
+    "asset": "shot-cc5327a449a2592c",
+    "kicker": "YOUR COLLECTION. YOUR CHOICES.",
+    "title": "The illustrated user manual",
+    "edition": "Version 1.9.0  /  English edition",
+    "caption": "Now playing with lyrics, queue and the same shared playback controls.",
+    "strapline": "Browse · Listen · Organise · Edit",
+    "description": "Practical instructions, screenshots and safe saving workflows.",
+    "date": "Documentation snapshot  /  13 November 2026",
+    "image_y_offset": -12
+  }
+}

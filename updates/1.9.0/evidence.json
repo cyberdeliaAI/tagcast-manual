@@ -1,0 +1,1132 @@
+{
+  "schema_version": 1,
+  "status": "proposal",
+  "report_date": "2026-11-13",
+  "base": {
+    "app_version": "1.7.0",
+    "app_commit": "a2493c85639780a9ca2b2a7121db85605b659c92",
+    "wiki_commit": "14d3e9839bf83cf8029ad8fc0084255ed251e2c8",
+    "documentation_commit": "9b47dae9ba917da0bcdfc93b8d6fa52c0c23c900",
+    "manual_commit": "f67c8d061bd1f3b12a3e3512141159e623b2432e",
+    "reference_pdf_sha256": "7b0a384006e6f71f114ee3424f75b286a81f3b7fd83ae30a06c458a4e29a8bce"
+  },
+  "target": {
+    "app_version": "1.9.0",
+    "app_commit": "440199a359fd2df2fd615e3222fb36afbc13427c",
+    "wiki_commit": "095b8c1f1189a4cb5237d3d3cd9089924a8caefa",
+    "tag_verified_via_github": true,
+    "wiki_head_verified_via_ls_remote": true
+  },
+  "intermediate_release": {
+    "version": "1.8.0",
+    "app_commit": "9c1615214ec11dc49dfaf23fc653d600f5e936a3"
+  },
+  "release_api_observations": [
+    {
+      "tag": "v1.8.0",
+      "id": 443604163,
+      "url": "https://github.com/cyberdeliaAI/tagcast/releases/tag/v1.8.0",
+      "api_url": "https://api.github.com/repos/cyberdeliaAI/tagcast/releases/443604163",
+      "target_commitish": "9c1615214ec11dc49dfaf23fc653d600f5e936a3",
+      "published_at_utc": "2026-11-12T23:09:49Z",
+      "updated_at_utc": "2026-11-13T09:00:42Z",
+      "draft": false,
+      "prerelease": false,
+      "body_sha256": "594bdcabb7d735a8efefedca27f01e75f8122027001184f5f4d9c0ea59324a76",
+      "body_matches_release_source_after_whitespace_normalization": true
+    },
+    {
+      "tag": "v1.9.0",
+      "id": 444757485,
+      "url": "https://github.com/cyberdeliaAI/tagcast/releases/tag/v1.9.0",
+      "api_url": "https://api.github.com/repos/cyberdeliaAI/tagcast/releases/444757485",
+      "target_commitish": "440199a359fd2df2fd615e3222fb36afbc13427c",
+      "published_at_utc": "2026-11-13T21:45:12Z",
+      "updated_at_utc": "2026-11-13T21:45:12Z",
+      "draft": false,
+      "prerelease": false,
+      "body_sha256": "07fdc66dae406445bb20d2cd8fd3cfcc07cbabed5a3bce7846cd6581d7b24e0c",
+      "body_matches_release_source_after_whitespace_normalization": true
+    }
+  ],
+  "changes": [
+    {
+      "id": "D01",
+      "title": "First setup",
+      "introduced": "1.8.0",
+      "wiki": [
+        "First-setup"
+      ],
+      "source_paths": [
+        "src/tagcast/static/first-setup.js",
+        "src/tagcast/client.py",
+        "tests/test_client.py"
+      ],
+      "approval": "not_requested"
+    },
+    {
+      "id": "D02",
+      "title": "Navigation and playback details",
+      "introduced": "1.8.0",
+      "wiki": [
+        "Workspace-controls"
+      ],
+      "source_paths": [
+        "src/tagcast/static/workspace.js",
+        "src/tagcast/static/player.js",
+        "src/tagcast/static/queue-memory.js",
+        "src/tagcast/collections.py"
+      ],
+      "approval": "not_requested"
+    },
+    {
+      "id": "D03",
+      "title": "Fixed sorting and Filters",
+      "introduced": "1.8.0",
+      "wiki": [
+        "Workspace-controls",
+        "Browsing-and-discovery"
+      ],
+      "source_paths": [
+        "src/tagcast/static/workspace.js",
+        "src/tagcast/static/app.js",
+        "src/tagcast/static/player.js"
+      ],
+      "approval": "not_requested"
+    },
+    {
+      "id": "D04",
+      "title": "Compact album actions",
+      "introduced": "1.8.0",
+      "wiki": [
+        "Album-details",
+        "Playlists"
+      ],
+      "source_paths": [
+        "src/tagcast/static/album.js",
+        "src/tagcast/static/collections.js",
+        "src/tagcast/static/index.html",
+        "src/tagcast/static/i18n/en.json"
+      ],
+      "approval": "not_requested"
+    },
+    {
+      "id": "D05",
+      "title": "Comparison and correction drafts",
+      "introduced": "1.8.0",
+      "wiki": [
+        "Comparing-track-lists",
+        "Artists-and-credits"
+      ],
+      "source_paths": [
+        "src/tagcast/track_comparison.py",
+        "src/tagcast/static/track-comparison.js",
+        "src/tagcast/static/track-comparison-drafts.js",
+        "tests/test_track_comparison.py"
+      ],
+      "approval": "not_requested"
+    },
+    {
+      "id": "D06",
+      "title": "History actions",
+      "introduced": "1.9.0",
+      "wiki": [
+        "Saving-and-history"
+      ],
+      "source_paths": [
+        "src/tagcast/static/index.html",
+        "src/tagcast/static/app.js"
+      ],
+      "approval": "not_requested"
+    },
+    {
+      "id": "D07",
+      "title": "Desktop update dialog",
+      "introduced": "1.9.0",
+      "wiki": [
+        "Updating-Tagcast",
+        "Settings-and-help"
+      ],
+      "source_paths": [
+        "src/tagcast/updates.py",
+        "src/tagcast/static/updates.js",
+        "electron/updates.cjs"
+      ],
+      "approval": "not_requested"
+    },
+    {
+      "id": "D08",
+      "title": "Platform update routes",
+      "introduced": "1.9.0",
+      "wiki": [
+        "Updating-Tagcast",
+        "Getting-started"
+      ],
+      "source_paths": [
+        "electron/updates.cjs",
+        "electron/main.cjs",
+        "electron/update-config.json",
+        "tools/windows_installer.py"
+      ],
+      "approval": "not_requested"
+    },
+    {
+      "id": "D09",
+      "title": "Update preferences and privacy",
+      "introduced": "1.9.0",
+      "wiki": [
+        "Updating-Tagcast",
+        "Privacy-and-security"
+      ],
+      "source_paths": [
+        "electron/updates.cjs",
+        "electron/native-updater.cjs",
+        "PRIVACY.md"
+      ],
+      "approval": "not_requested"
+    },
+    {
+      "id": "D10",
+      "title": "Confirmed installation and shutdown",
+      "introduced": "1.9.0",
+      "wiki": [
+        "Updating-Tagcast",
+        "Getting-started",
+        "Troubleshooting"
+      ],
+      "source_paths": [
+        "electron/main.cjs",
+        "electron/updates.cjs",
+        "electron/native-updater.cjs",
+        "electron/tests/updates.test.cjs"
+      ],
+      "approval": "not_requested"
+    },
+    {
+      "id": "D11",
+      "title": "Current screenshot coverage",
+      "introduced": null,
+      "wiki": [
+        "Screenshots"
+      ],
+      "source_paths": [
+        "docs/screenshots/2026-11-13-1.9.0/README.md"
+      ],
+      "approval": "not_requested"
+    },
+    {
+      "id": "D12",
+      "title": "Canonical Wiki destinations",
+      "introduced": null,
+      "wiki": [
+        "Home",
+        "Now-playing",
+        "Overview-and-metadata-health",
+        "Lyrics",
+        "Workspace-controls"
+      ],
+      "source_paths": [],
+      "approval": "not_requested"
+    },
+    {
+      "id": "D13",
+      "title": "Amber Midnight",
+      "introduced": "1.8.0",
+      "wiki": [
+        "Custom-themes"
+      ],
+      "source_paths": [
+        "docs/themes/tagcast-amber-midnight.json",
+        "docs/themes/README.md",
+        "src/tagcast/static/themes.js"
+      ],
+      "approval": "not_requested"
+    },
+    {
+      "id": "D14",
+      "title": "Edition metadata",
+      "introduced": null,
+      "wiki": [
+        "PDF-manual",
+        "Release-history"
+      ],
+      "source_paths": [
+        ".github/release-notes/1.8.0.md",
+        ".github/release-notes/1.9.0.md"
+      ],
+      "approval": "not_requested"
+    },
+    {
+      "id": "E01",
+      "title": "Existing palette wording correction",
+      "introduced": null,
+      "wiki": [
+        "Custom-themes"
+      ],
+      "source_paths": [
+        "src/tagcast/static/themes.js",
+        "src/tagcast/static/palettes.css"
+      ],
+      "approval": "not_requested"
+    }
+  ],
+  "sources": [
+    {
+      "repository": "cyberdeliaAI/tagcast",
+      "commit": "440199a359fd2df2fd615e3222fb36afbc13427c",
+      "path": ".github/release-notes/1.8.0.md",
+      "sha256": "594bdcabb7d735a8efefedca27f01e75f8122027001184f5f4d9c0ea59324a76",
+      "url": "https://github.com/cyberdeliaAI/tagcast/blob/440199a359fd2df2fd615e3222fb36afbc13427c/.github/release-notes/1.8.0.md"
+    },
+    {
+      "repository": "cyberdeliaAI/tagcast",
+      "commit": "440199a359fd2df2fd615e3222fb36afbc13427c",
+      "path": ".github/release-notes/1.9.0.md",
+      "sha256": "07fdc66dae406445bb20d2cd8fd3cfcc07cbabed5a3bce7846cd6581d7b24e0c",
+      "url": "https://github.com/cyberdeliaAI/tagcast/blob/440199a359fd2df2fd615e3222fb36afbc13427c/.github/release-notes/1.9.0.md"
+    },
+    {
+      "repository": "cyberdeliaAI/tagcast",
+      "commit": "440199a359fd2df2fd615e3222fb36afbc13427c",
+      "path": "PRIVACY.md",
+      "sha256": "b9ba5c6bf1742f4724543e505e9ab352ac4d858b3e86320f95ac8aa5e538dbb3",
+      "url": "https://github.com/cyberdeliaAI/tagcast/blob/440199a359fd2df2fd615e3222fb36afbc13427c/PRIVACY.md"
+    },
+    {
+      "repository": "cyberdeliaAI/tagcast",
+      "commit": "440199a359fd2df2fd615e3222fb36afbc13427c",
+      "path": "docs/desktop-updates.md",
+      "sha256": "b11881cf609daa8a81aa6224ec0f083cdfb7f3ebfe5db96b43d5c489eb5a0482",
+      "url": "https://github.com/cyberdeliaAI/tagcast/blob/440199a359fd2df2fd615e3222fb36afbc13427c/docs/desktop-updates.md"
+    },
+    {
+      "repository": "cyberdeliaAI/tagcast",
+      "commit": "440199a359fd2df2fd615e3222fb36afbc13427c",
+      "path": "docs/first-setup.md",
+      "sha256": "83ec245160349fb7365b21c9509b96591da4f6110af4c8f8978c684fde94146a",
+      "url": "https://github.com/cyberdeliaAI/tagcast/blob/440199a359fd2df2fd615e3222fb36afbc13427c/docs/first-setup.md"
+    },
+    {
+      "repository": "cyberdeliaAI/tagcast",
+      "commit": "440199a359fd2df2fd615e3222fb36afbc13427c",
+      "path": "docs/screenshots/2026-11-13-1.9.0/README.md",
+      "sha256": "df41343291052d30a614c5c2d5720c6de0e178fea8169d54c6762e74f50b5d91",
+      "url": "https://github.com/cyberdeliaAI/tagcast/blob/440199a359fd2df2fd615e3222fb36afbc13427c/docs/screenshots/2026-11-13-1.9.0/README.md"
+    },
+    {
+      "repository": "cyberdeliaAI/tagcast",
+      "commit": "440199a359fd2df2fd615e3222fb36afbc13427c",
+      "path": "docs/themes/README.md",
+      "sha256": "a05eee7ffb7d994987eec0868dd68e07db7e5bc9aa0ac253ffb74e9cb0de262d",
+      "url": "https://github.com/cyberdeliaAI/tagcast/blob/440199a359fd2df2fd615e3222fb36afbc13427c/docs/themes/README.md"
+    },
+    {
+      "repository": "cyberdeliaAI/tagcast",
+      "commit": "440199a359fd2df2fd615e3222fb36afbc13427c",
+      "path": "docs/themes/tagcast-amber-midnight.json",
+      "sha256": "0c4828922b7cdfa5eaa13aa7836d0bb3cd9647fbd092cb1a09f5bb8bf4ed0394",
+      "url": "https://github.com/cyberdeliaAI/tagcast/blob/440199a359fd2df2fd615e3222fb36afbc13427c/docs/themes/tagcast-amber-midnight.json"
+    },
+    {
+      "repository": "cyberdeliaAI/tagcast",
+      "commit": "440199a359fd2df2fd615e3222fb36afbc13427c",
+      "path": "docs/tracklist-comparison.md",
+      "sha256": "735b3e124cce3626898cf6f38b67b416215f790166b486009443517e6f618738",
+      "url": "https://github.com/cyberdeliaAI/tagcast/blob/440199a359fd2df2fd615e3222fb36afbc13427c/docs/tracklist-comparison.md"
+    },
+    {
+      "repository": "cyberdeliaAI/tagcast",
+      "commit": "440199a359fd2df2fd615e3222fb36afbc13427c",
+      "path": "docs/workspace-controls.md",
+      "sha256": "4889fc308808ea5a34da6881c9aacded8d30568365ac78daeb826268c9b791d8",
+      "url": "https://github.com/cyberdeliaAI/tagcast/blob/440199a359fd2df2fd615e3222fb36afbc13427c/docs/workspace-controls.md"
+    },
+    {
+      "repository": "cyberdeliaAI/tagcast",
+      "commit": "440199a359fd2df2fd615e3222fb36afbc13427c",
+      "path": "electron/main.cjs",
+      "sha256": "34c7d88146dac4d0089ed600211d5ca220a6cca8117469d7fea06efd528b7fb9",
+      "url": "https://github.com/cyberdeliaAI/tagcast/blob/440199a359fd2df2fd615e3222fb36afbc13427c/electron/main.cjs"
+    },
+    {
+      "repository": "cyberdeliaAI/tagcast",
+      "commit": "440199a359fd2df2fd615e3222fb36afbc13427c",
+      "path": "electron/native-updater.cjs",
+      "sha256": "f1e965d20ce873fbff643a35e5d60b9b55b454c8b5608d5f14e8c0aae4e7b215",
+      "url": "https://github.com/cyberdeliaAI/tagcast/blob/440199a359fd2df2fd615e3222fb36afbc13427c/electron/native-updater.cjs"
+    },
+    {
+      "repository": "cyberdeliaAI/tagcast",
+      "commit": "440199a359fd2df2fd615e3222fb36afbc13427c",
+      "path": "electron/tests/update-transfer.test.cjs",
+      "sha256": "254ff0f786d05fc2b45f2d1330b22a45b2017554e4e782a042367b7397a87a76",
+      "url": "https://github.com/cyberdeliaAI/tagcast/blob/440199a359fd2df2fd615e3222fb36afbc13427c/electron/tests/update-transfer.test.cjs"
+    },
+    {
+      "repository": "cyberdeliaAI/tagcast",
+      "commit": "440199a359fd2df2fd615e3222fb36afbc13427c",
+      "path": "electron/tests/updates.test.cjs",
+      "sha256": "fb0036b040f7a39df53b61ef1857505e07f8a1e70d902ac9631e8ae8acee79cb",
+      "url": "https://github.com/cyberdeliaAI/tagcast/blob/440199a359fd2df2fd615e3222fb36afbc13427c/electron/tests/updates.test.cjs"
+    },
+    {
+      "repository": "cyberdeliaAI/tagcast",
+      "commit": "440199a359fd2df2fd615e3222fb36afbc13427c",
+      "path": "electron/update-config.json",
+      "sha256": "bfdf1da4a0bcd31cbfd930fbfd921f848ffeca6d1e74f6a13cc20109bed4b458",
+      "url": "https://github.com/cyberdeliaAI/tagcast/blob/440199a359fd2df2fd615e3222fb36afbc13427c/electron/update-config.json"
+    },
+    {
+      "repository": "cyberdeliaAI/tagcast",
+      "commit": "440199a359fd2df2fd615e3222fb36afbc13427c",
+      "path": "electron/updates.cjs",
+      "sha256": "4912e64010039f483ccc128f9884412fe331166c476118f9e7145eb5d6cbaed8",
+      "url": "https://github.com/cyberdeliaAI/tagcast/blob/440199a359fd2df2fd615e3222fb36afbc13427c/electron/updates.cjs"
+    },
+    {
+      "repository": "cyberdeliaAI/tagcast",
+      "commit": "440199a359fd2df2fd615e3222fb36afbc13427c",
+      "path": "src/tagcast/client.py",
+      "sha256": "3cebd560a8bdafdd93441ea5b7e8f386fb8872e3c8f8096350859e0bd30931f2",
+      "url": "https://github.com/cyberdeliaAI/tagcast/blob/440199a359fd2df2fd615e3222fb36afbc13427c/src/tagcast/client.py"
+    },
+    {
+      "repository": "cyberdeliaAI/tagcast",
+      "commit": "440199a359fd2df2fd615e3222fb36afbc13427c",
+      "path": "src/tagcast/collections.py",
+      "sha256": "8b7220d0b8ce96d89c968f1ce5292160387d20c9bc90437c3231374735968fe4",
+      "url": "https://github.com/cyberdeliaAI/tagcast/blob/440199a359fd2df2fd615e3222fb36afbc13427c/src/tagcast/collections.py"
+    },
+    {
+      "repository": "cyberdeliaAI/tagcast",
+      "commit": "440199a359fd2df2fd615e3222fb36afbc13427c",
+      "path": "src/tagcast/static/album.js",
+      "sha256": "b785e48f28055ac8f090805a8a32f22e6fffc13888fd0e728c6d80ad40aba16a",
+      "url": "https://github.com/cyberdeliaAI/tagcast/blob/440199a359fd2df2fd615e3222fb36afbc13427c/src/tagcast/static/album.js"
+    },
+    {
+      "repository": "cyberdeliaAI/tagcast",
+      "commit": "440199a359fd2df2fd615e3222fb36afbc13427c",
+      "path": "src/tagcast/static/app.js",
+      "sha256": "a65313857de89315b7b31d59237ecf514e6fe0a0d35922191332c4f667ec08ed",
+      "url": "https://github.com/cyberdeliaAI/tagcast/blob/440199a359fd2df2fd615e3222fb36afbc13427c/src/tagcast/static/app.js"
+    },
+    {
+      "repository": "cyberdeliaAI/tagcast",
+      "commit": "440199a359fd2df2fd615e3222fb36afbc13427c",
+      "path": "src/tagcast/static/collections.js",
+      "sha256": "4d48834bc4cd992c258fce34c792558431361e8a670392bbd7767c3dae3d354f",
+      "url": "https://github.com/cyberdeliaAI/tagcast/blob/440199a359fd2df2fd615e3222fb36afbc13427c/src/tagcast/static/collections.js"
+    },
+    {
+      "repository": "cyberdeliaAI/tagcast",
+      "commit": "440199a359fd2df2fd615e3222fb36afbc13427c",
+      "path": "src/tagcast/static/first-setup.js",
+      "sha256": "0531dd3d778b36183bd1aee85cad41b3cb984f5811cb8ac225d2e345df6e2d05",
+      "url": "https://github.com/cyberdeliaAI/tagcast/blob/440199a359fd2df2fd615e3222fb36afbc13427c/src/tagcast/static/first-setup.js"
+    },
+    {
+      "repository": "cyberdeliaAI/tagcast",
+      "commit": "440199a359fd2df2fd615e3222fb36afbc13427c",
+      "path": "src/tagcast/static/i18n/en.json",
+      "sha256": "8fa78c1044eb3600ec0dcabd797015b5928c8ccb8682244cec90b07b5a7741b9",
+      "url": "https://github.com/cyberdeliaAI/tagcast/blob/440199a359fd2df2fd615e3222fb36afbc13427c/src/tagcast/static/i18n/en.json"
+    },
+    {
+      "repository": "cyberdeliaAI/tagcast",
+      "commit": "440199a359fd2df2fd615e3222fb36afbc13427c",
+      "path": "src/tagcast/static/index.html",
+      "sha256": "769aaf2783c4ce929067abe9eb0f729f141625051f435ed63288e30e525bcbb7",
+      "url": "https://github.com/cyberdeliaAI/tagcast/blob/440199a359fd2df2fd615e3222fb36afbc13427c/src/tagcast/static/index.html"
+    },
+    {
+      "repository": "cyberdeliaAI/tagcast",
+      "commit": "440199a359fd2df2fd615e3222fb36afbc13427c",
+      "path": "src/tagcast/static/palettes.css",
+      "sha256": "27376f787fb56369169c99aa15c28de30e7b176093e8e0aabdb4e572f1a99c07",
+      "url": "https://github.com/cyberdeliaAI/tagcast/blob/440199a359fd2df2fd615e3222fb36afbc13427c/src/tagcast/static/palettes.css"
+    },
+    {
+      "repository": "cyberdeliaAI/tagcast",
+      "commit": "440199a359fd2df2fd615e3222fb36afbc13427c",
+      "path": "src/tagcast/static/player.js",
+      "sha256": "2a3f4087ead632029a2bb145e45a83dd3837708439729e5b7d3f307497250f8b",
+      "url": "https://github.com/cyberdeliaAI/tagcast/blob/440199a359fd2df2fd615e3222fb36afbc13427c/src/tagcast/static/player.js"
+    },
+    {
+      "repository": "cyberdeliaAI/tagcast",
+      "commit": "440199a359fd2df2fd615e3222fb36afbc13427c",
+      "path": "src/tagcast/static/queue-memory.js",
+      "sha256": "9349b865dc0eeb1c316ec6c2c742bedd88a96cbc4728d905f34cc5b2c42876ec",
+      "url": "https://github.com/cyberdeliaAI/tagcast/blob/440199a359fd2df2fd615e3222fb36afbc13427c/src/tagcast/static/queue-memory.js"
+    },
+    {
+      "repository": "cyberdeliaAI/tagcast",
+      "commit": "440199a359fd2df2fd615e3222fb36afbc13427c",
+      "path": "src/tagcast/static/themes.js",
+      "sha256": "7e2ea215e93300f097daebdfcdac4abc8e40aa019da9a2d3e4567800bbd2f006",
+      "url": "https://github.com/cyberdeliaAI/tagcast/blob/440199a359fd2df2fd615e3222fb36afbc13427c/src/tagcast/static/themes.js"
+    },
+    {
+      "repository": "cyberdeliaAI/tagcast",
+      "commit": "440199a359fd2df2fd615e3222fb36afbc13427c",
+      "path": "src/tagcast/static/track-comparison-drafts.js",
+      "sha256": "38c1f33eb383452202d264e719a7de2e88c7259d2fb82a077df0a32f3c23949e",
+      "url": "https://github.com/cyberdeliaAI/tagcast/blob/440199a359fd2df2fd615e3222fb36afbc13427c/src/tagcast/static/track-comparison-drafts.js"
+    },
+    {
+      "repository": "cyberdeliaAI/tagcast",
+      "commit": "440199a359fd2df2fd615e3222fb36afbc13427c",
+      "path": "src/tagcast/static/track-comparison.js",
+      "sha256": "35e78d6c4fcfe84183356948b226e33b7b387bbb57b8050a681f5f6156d79de6",
+      "url": "https://github.com/cyberdeliaAI/tagcast/blob/440199a359fd2df2fd615e3222fb36afbc13427c/src/tagcast/static/track-comparison.js"
+    },
+    {
+      "repository": "cyberdeliaAI/tagcast",
+      "commit": "440199a359fd2df2fd615e3222fb36afbc13427c",
+      "path": "src/tagcast/static/updates.js",
+      "sha256": "44316cd484b3eeb27d540f22e1470954889eea38b87f7f70e689f26e13bce7db",
+      "url": "https://github.com/cyberdeliaAI/tagcast/blob/440199a359fd2df2fd615e3222fb36afbc13427c/src/tagcast/static/updates.js"
+    },
+    {
+      "repository": "cyberdeliaAI/tagcast",
+      "commit": "440199a359fd2df2fd615e3222fb36afbc13427c",
+      "path": "src/tagcast/static/workspace.js",
+      "sha256": "2824306d9ce32223f9e865257e991c810f1ac20f63fd9f8b5f5ef286f265ffb3",
+      "url": "https://github.com/cyberdeliaAI/tagcast/blob/440199a359fd2df2fd615e3222fb36afbc13427c/src/tagcast/static/workspace.js"
+    },
+    {
+      "repository": "cyberdeliaAI/tagcast",
+      "commit": "440199a359fd2df2fd615e3222fb36afbc13427c",
+      "path": "src/tagcast/track_comparison.py",
+      "sha256": "dee27c683e231ac4b2721f43f305bdecb4e6b5245b63fbddb5b515e4722fc586",
+      "url": "https://github.com/cyberdeliaAI/tagcast/blob/440199a359fd2df2fd615e3222fb36afbc13427c/src/tagcast/track_comparison.py"
+    },
+    {
+      "repository": "cyberdeliaAI/tagcast",
+      "commit": "440199a359fd2df2fd615e3222fb36afbc13427c",
+      "path": "src/tagcast/updates.py",
+      "sha256": "1d1a397d5ec5c928c7cea9daf10e040527e74ebe7b42d01c7ed3f3195550a525",
+      "url": "https://github.com/cyberdeliaAI/tagcast/blob/440199a359fd2df2fd615e3222fb36afbc13427c/src/tagcast/updates.py"
+    },
+    {
+      "repository": "cyberdeliaAI/tagcast",
+      "commit": "440199a359fd2df2fd615e3222fb36afbc13427c",
+      "path": "tests/frontend.test.cjs",
+      "sha256": "26b0ef48b554731b52f1903d96aec0bbb96bea778404154afadfb7b5063517f2",
+      "url": "https://github.com/cyberdeliaAI/tagcast/blob/440199a359fd2df2fd615e3222fb36afbc13427c/tests/frontend.test.cjs"
+    },
+    {
+      "repository": "cyberdeliaAI/tagcast",
+      "commit": "440199a359fd2df2fd615e3222fb36afbc13427c",
+      "path": "tests/test_client.py",
+      "sha256": "ec89533eeb57427a05b4fd0705e77b55a1ea34500479bb016de71864ae52fbb5",
+      "url": "https://github.com/cyberdeliaAI/tagcast/blob/440199a359fd2df2fd615e3222fb36afbc13427c/tests/test_client.py"
+    },
+    {
+      "repository": "cyberdeliaAI/tagcast",
+      "commit": "440199a359fd2df2fd615e3222fb36afbc13427c",
+      "path": "tests/test_track_comparison.py",
+      "sha256": "76de249cd8e4846c553ed2bc4cb7e28ce2afd045570c4232fc512d1c66c493c8",
+      "url": "https://github.com/cyberdeliaAI/tagcast/blob/440199a359fd2df2fd615e3222fb36afbc13427c/tests/test_track_comparison.py"
+    },
+    {
+      "repository": "cyberdeliaAI/tagcast",
+      "commit": "440199a359fd2df2fd615e3222fb36afbc13427c",
+      "path": "tools/windows_installer.py",
+      "sha256": "78d1d9a2778f85499338d245650551c6810edb9911b39ad76df540889a1885d4",
+      "url": "https://github.com/cyberdeliaAI/tagcast/blob/440199a359fd2df2fd615e3222fb36afbc13427c/tools/windows_installer.py"
+    },
+    {
+      "repository": "cyberdeliaAI/tagcast.wiki",
+      "commit": "095b8c1f1189a4cb5237d3d3cd9089924a8caefa",
+      "path": "1001-Albums.md",
+      "sha256": "1c2eea86d410f9cd6ca9efccea722ade639ebebdcbb5353bbee3768017a47fbf",
+      "url": "https://github.com/cyberdeliaAI/tagcast/wiki/1001-Albums"
+    },
+    {
+      "repository": "cyberdeliaAI/tagcast.wiki",
+      "commit": "095b8c1f1189a4cb5237d3d3cd9089924a8caefa",
+      "path": "Album-and-track-years.md",
+      "sha256": "b26643ce7b90e33af87a06fe043dfbd325f255214b986a6fb5efd2e9875c682c",
+      "url": "https://github.com/cyberdeliaAI/tagcast/wiki/Album-and-track-years"
+    },
+    {
+      "repository": "cyberdeliaAI/tagcast.wiki",
+      "commit": "095b8c1f1189a4cb5237d3d3cd9089924a8caefa",
+      "path": "Album-details.md",
+      "sha256": "dbb2baa3997c5bd7a529116062ecf1dcfe3baba2c0e249a2495a3e74227b91f6",
+      "url": "https://github.com/cyberdeliaAI/tagcast/wiki/Album-details"
+    },
+    {
+      "repository": "cyberdeliaAI/tagcast.wiki",
+      "commit": "095b8c1f1189a4cb5237d3d3cd9089924a8caefa",
+      "path": "Artists-and-credits.md",
+      "sha256": "a35f5f0030bbdb4e7527a472ccd026f1a48c3b2d9d52c17364ba07f3ba4d323a",
+      "url": "https://github.com/cyberdeliaAI/tagcast/wiki/Artists-and-credits"
+    },
+    {
+      "repository": "cyberdeliaAI/tagcast.wiki",
+      "commit": "095b8c1f1189a4cb5237d3d3cd9089924a8caefa",
+      "path": "Artwork-and-artist-images.md",
+      "sha256": "f0454d55e7692d6641be4f71dda35501f2fe8e3d84fa8fa0ca05f1a3eb9bd498",
+      "url": "https://github.com/cyberdeliaAI/tagcast/wiki/Artwork-and-artist-images"
+    },
+    {
+      "repository": "cyberdeliaAI/tagcast.wiki",
+      "commit": "095b8c1f1189a4cb5237d3d3cd9089924a8caefa",
+      "path": "Browsing-and-discovery.md",
+      "sha256": "5ca1dff0e3d89e1e23ab87c5cda465c831dd73c2dbad44139903db6cff6e4708",
+      "url": "https://github.com/cyberdeliaAI/tagcast/wiki/Browsing-and-discovery"
+    },
+    {
+      "repository": "cyberdeliaAI/tagcast.wiki",
+      "commit": "095b8c1f1189a4cb5237d3d3cd9089924a8caefa",
+      "path": "Comparing-track-lists.md",
+      "sha256": "abb985c030b5cabf96e87e2c75ee0af93fe3ae816009e7bdd6268db1eb4b65dc",
+      "url": "https://github.com/cyberdeliaAI/tagcast/wiki/Comparing-track-lists"
+    },
+    {
+      "repository": "cyberdeliaAI/tagcast.wiki",
+      "commit": "095b8c1f1189a4cb5237d3d3cd9089924a8caefa",
+      "path": "Connecting-to-iBroadcast.md",
+      "sha256": "ed9ed5775c1c4f3ce7a6b1e05956596ff80fe5a29249f0648d2a0837476fffa8",
+      "url": "https://github.com/cyberdeliaAI/tagcast/wiki/Connecting-to-iBroadcast"
+    },
+    {
+      "repository": "cyberdeliaAI/tagcast.wiki",
+      "commit": "095b8c1f1189a4cb5237d3d3cd9089924a8caefa",
+      "path": "Custom-themes.md",
+      "sha256": "9e1354e6085fe0122be20755dad95346979e95c1f2adf8408a552c8b07ea190c",
+      "url": "https://github.com/cyberdeliaAI/tagcast/wiki/Custom-themes"
+    },
+    {
+      "repository": "cyberdeliaAI/tagcast.wiki",
+      "commit": "095b8c1f1189a4cb5237d3d3cd9089924a8caefa",
+      "path": "Downloads.md",
+      "sha256": "1557777a208a12513e2dbe86dbe12eab66d9bd3d08308ea6b35ef63cd178d077",
+      "url": "https://github.com/cyberdeliaAI/tagcast/wiki/Downloads"
+    },
+    {
+      "repository": "cyberdeliaAI/tagcast.wiki",
+      "commit": "095b8c1f1189a4cb5237d3d3cd9089924a8caefa",
+      "path": "Editing-metadata.md",
+      "sha256": "fe94911d3152a942b712c7ef825335cbfe972d3c2a3e852f3c39109727d46446",
+      "url": "https://github.com/cyberdeliaAI/tagcast/wiki/Editing-metadata"
+    },
+    {
+      "repository": "cyberdeliaAI/tagcast.wiki",
+      "commit": "095b8c1f1189a4cb5237d3d3cd9089924a8caefa",
+      "path": "Exporting-library-metadata.md",
+      "sha256": "e226aba8838be0d2e4cd0fd3d4c0d75c39bc4c43e3bc2605ef0cbf617f6d84bc",
+      "url": "https://github.com/cyberdeliaAI/tagcast/wiki/Exporting-library-metadata"
+    },
+    {
+      "repository": "cyberdeliaAI/tagcast.wiki",
+      "commit": "095b8c1f1189a4cb5237d3d3cd9089924a8caefa",
+      "path": "First-setup.md",
+      "sha256": "174d11f3603956ad4b3d4c04d4d61d4d2ab6299814f955ca9b2b80084f1a3275",
+      "url": "https://github.com/cyberdeliaAI/tagcast/wiki/First-setup"
+    },
+    {
+      "repository": "cyberdeliaAI/tagcast.wiki",
+      "commit": "095b8c1f1189a4cb5237d3d3cd9089924a8caefa",
+      "path": "Gapless-playback.md",
+      "sha256": "87b2a37b9b6786fdfa46c82ad5c84ee25c329e0f73adb03f104e46e8b2a9480d",
+      "url": "https://github.com/cyberdeliaAI/tagcast/wiki/Gapless-playback"
+    },
+    {
+      "repository": "cyberdeliaAI/tagcast.wiki",
+      "commit": "095b8c1f1189a4cb5237d3d3cd9089924a8caefa",
+      "path": "Getting-started.md",
+      "sha256": "bbfd612721a45ecd5482c03ad85e68371a7029b2f3552b823af53778cab1542f",
+      "url": "https://github.com/cyberdeliaAI/tagcast/wiki/Getting-started"
+    },
+    {
+      "repository": "cyberdeliaAI/tagcast.wiki",
+      "commit": "095b8c1f1189a4cb5237d3d3cd9089924a8caefa",
+      "path": "Home.md",
+      "sha256": "4f7ebf2672cf7ef7cff09a07e269b754ae67c3e0f799a204d4b58ef145891c10",
+      "url": "https://github.com/cyberdeliaAI/tagcast/wiki/Home"
+    },
+    {
+      "repository": "cyberdeliaAI/tagcast.wiki",
+      "commit": "095b8c1f1189a4cb5237d3d3cd9089924a8caefa",
+      "path": "Importing-lyrics.md",
+      "sha256": "6ff37076c229e1261849c38f0edda7c71bea6138008a58c9052e324c6647bd3a",
+      "url": "https://github.com/cyberdeliaAI/tagcast/wiki/Importing-lyrics"
+    },
+    {
+      "repository": "cyberdeliaAI/tagcast.wiki",
+      "commit": "095b8c1f1189a4cb5237d3d3cd9089924a8caefa",
+      "path": "Importing-playlists.md",
+      "sha256": "03303ec6c91e69f78e29ca8bc9583444591b1dce3a1eb16ac2f18ef35b7192cd",
+      "url": "https://github.com/cyberdeliaAI/tagcast/wiki/Importing-playlists"
+    },
+    {
+      "repository": "cyberdeliaAI/tagcast.wiki",
+      "commit": "095b8c1f1189a4cb5237d3d3cd9089924a8caefa",
+      "path": "Lyrics.md",
+      "sha256": "0412fbe4a3d7905f729e7ed31fadaa7ed9d1fde17bfbd5ef362c89e9eb9a8258",
+      "url": "https://github.com/cyberdeliaAI/tagcast/wiki/Lyrics"
+    },
+    {
+      "repository": "cyberdeliaAI/tagcast.wiki",
+      "commit": "095b8c1f1189a4cb5237d3d3cd9089924a8caefa",
+      "path": "Merge-albums.md",
+      "sha256": "e5b8b526925bb943689ff504e6ff28a0e8e977d64ce3aa279624436a5957edd5",
+      "url": "https://github.com/cyberdeliaAI/tagcast/wiki/Merge-albums"
+    },
+    {
+      "repository": "cyberdeliaAI/tagcast.wiki",
+      "commit": "095b8c1f1189a4cb5237d3d3cd9089924a8caefa",
+      "path": "Metadata-cleanup.md",
+      "sha256": "c16d74624768f09f780ff21736107fbbd82b0067c28f375285c73f85ae054f93",
+      "url": "https://github.com/cyberdeliaAI/tagcast/wiki/Metadata-cleanup"
+    },
+    {
+      "repository": "cyberdeliaAI/tagcast.wiki",
+      "commit": "095b8c1f1189a4cb5237d3d3cd9089924a8caefa",
+      "path": "Music-uploads.md",
+      "sha256": "5f521e3dcb467d136c6cfa0550ebfa3c4602dcd74ba8e89c4895662500f90bfc",
+      "url": "https://github.com/cyberdeliaAI/tagcast/wiki/Music-uploads"
+    },
+    {
+      "repository": "cyberdeliaAI/tagcast.wiki",
+      "commit": "095b8c1f1189a4cb5237d3d3cd9089924a8caefa",
+      "path": "Now-playing.md",
+      "sha256": "61e1ed53cba355d06800a0c793f2becc65ae5a5d1035a3ba9813f52e83a6e87e",
+      "url": "https://github.com/cyberdeliaAI/tagcast/wiki/Now-playing"
+    },
+    {
+      "repository": "cyberdeliaAI/tagcast.wiki",
+      "commit": "095b8c1f1189a4cb5237d3d3cd9089924a8caefa",
+      "path": "Overview-and-metadata-health.md",
+      "sha256": "fe73a240096e1f5a8569c8588f6ddc15fa690e0cc6d08d7e63a1d792eccc69ab",
+      "url": "https://github.com/cyberdeliaAI/tagcast/wiki/Overview-and-metadata-health"
+    },
+    {
+      "repository": "cyberdeliaAI/tagcast.wiki",
+      "commit": "095b8c1f1189a4cb5237d3d3cd9089924a8caefa",
+      "path": "PDF-manual.md",
+      "sha256": "d6eae80c11bc2a8d3af546f16e680f1f22c63b96214a74ac998bb2c7a16793f5",
+      "url": "https://github.com/cyberdeliaAI/tagcast/wiki/PDF-manual"
+    },
+    {
+      "repository": "cyberdeliaAI/tagcast.wiki",
+      "commit": "095b8c1f1189a4cb5237d3d3cd9089924a8caefa",
+      "path": "Playback-and-queue.md",
+      "sha256": "fb0fdd1f85eeec4e9728d7c49940c0eea2697f23b99cefa3af993bb423feff8e",
+      "url": "https://github.com/cyberdeliaAI/tagcast/wiki/Playback-and-queue"
+    },
+    {
+      "repository": "cyberdeliaAI/tagcast.wiki",
+      "commit": "095b8c1f1189a4cb5237d3d3cd9089924a8caefa",
+      "path": "Playlists.md",
+      "sha256": "eede3a14e13677da3e3add69723aa183ac670745c03bf0e7b37911461e928abf",
+      "url": "https://github.com/cyberdeliaAI/tagcast/wiki/Playlists"
+    },
+    {
+      "repository": "cyberdeliaAI/tagcast.wiki",
+      "commit": "095b8c1f1189a4cb5237d3d3cd9089924a8caefa",
+      "path": "Privacy-and-security.md",
+      "sha256": "bf6581d31e34b72ab2024c4c292a1e2fdf08208460a9527f8c80c0e5ccc9e7c0",
+      "url": "https://github.com/cyberdeliaAI/tagcast/wiki/Privacy-and-security"
+    },
+    {
+      "repository": "cyberdeliaAI/tagcast.wiki",
+      "commit": "095b8c1f1189a4cb5237d3d3cd9089924a8caefa",
+      "path": "Ratings-and-favourites.md",
+      "sha256": "c3ef11c47d1b750aa3219072f444da721c149c33431e486c4af6b21414e38c2d",
+      "url": "https://github.com/cyberdeliaAI/tagcast/wiki/Ratings-and-favourites"
+    },
+    {
+      "repository": "cyberdeliaAI/tagcast.wiki",
+      "commit": "095b8c1f1189a4cb5237d3d3cd9089924a8caefa",
+      "path": "Release-history.md",
+      "sha256": "bbc9cc96f63e7383ee82c53a046d0e7eef81f98b96f623dd818d0ddbd5bc1496",
+      "url": "https://github.com/cyberdeliaAI/tagcast/wiki/Release-history"
+    },
+    {
+      "repository": "cyberdeliaAI/tagcast.wiki",
+      "commit": "095b8c1f1189a4cb5237d3d3cd9089924a8caefa",
+      "path": "Saving-and-history.md",
+      "sha256": "77b830aedf9590d43e396e673bafc3d3dfa3d2e0bf1e166a268e56dbf1b4d226",
+      "url": "https://github.com/cyberdeliaAI/tagcast/wiki/Saving-and-history"
+    },
+    {
+      "repository": "cyberdeliaAI/tagcast.wiki",
+      "commit": "095b8c1f1189a4cb5237d3d3cd9089924a8caefa",
+      "path": "Screenshots.md",
+      "sha256": "3b2123405e59ca94fc5f4ef84bf315060cb0d20106804b48f82deaef3f401428",
+      "url": "https://github.com/cyberdeliaAI/tagcast/wiki/Screenshots"
+    },
+    {
+      "repository": "cyberdeliaAI/tagcast.wiki",
+      "commit": "095b8c1f1189a4cb5237d3d3cd9089924a8caefa",
+      "path": "Settings-and-help.md",
+      "sha256": "5da572083ad183f42c7c07e75365862c9fef1864e0c7e0b8516c5020d2add824",
+      "url": "https://github.com/cyberdeliaAI/tagcast/wiki/Settings-and-help"
+    },
+    {
+      "repository": "cyberdeliaAI/tagcast.wiki",
+      "commit": "095b8c1f1189a4cb5237d3d3cd9089924a8caefa",
+      "path": "Split-albums.md",
+      "sha256": "ba0b3395266c20b0713be1ee7c94537750dac31c806c630f772b37ba6d713425",
+      "url": "https://github.com/cyberdeliaAI/tagcast/wiki/Split-albums"
+    },
+    {
+      "repository": "cyberdeliaAI/tagcast.wiki",
+      "commit": "095b8c1f1189a4cb5237d3d3cd9089924a8caefa",
+      "path": "Tags.md",
+      "sha256": "5f37d9716631f1a660ea31ff3c7d1fc5da358bf1b62cdf871e625242ef17512c",
+      "url": "https://github.com/cyberdeliaAI/tagcast/wiki/Tags"
+    },
+    {
+      "repository": "cyberdeliaAI/tagcast.wiki",
+      "commit": "095b8c1f1189a4cb5237d3d3cd9089924a8caefa",
+      "path": "Trash-and-duplicates.md",
+      "sha256": "3d5f826df08e8ca3379654f0418590844ce58ae39ac32ad9ecf37060f23d5d52",
+      "url": "https://github.com/cyberdeliaAI/tagcast/wiki/Trash-and-duplicates"
+    },
+    {
+      "repository": "cyberdeliaAI/tagcast.wiki",
+      "commit": "095b8c1f1189a4cb5237d3d3cd9089924a8caefa",
+      "path": "Troubleshooting.md",
+      "sha256": "ee714662db66ccc4175fdf0b5811437749df8e269d72b40e3bcaa32b979a8c82",
+      "url": "https://github.com/cyberdeliaAI/tagcast/wiki/Troubleshooting"
+    },
+    {
+      "repository": "cyberdeliaAI/tagcast.wiki",
+      "commit": "095b8c1f1189a4cb5237d3d3cd9089924a8caefa",
+      "path": "Updating-Tagcast.md",
+      "sha256": "32b764804ce005dfc0d615242b83ce22adba16076e1dbc6bcf0c5655390d451b",
+      "url": "https://github.com/cyberdeliaAI/tagcast/wiki/Updating-Tagcast"
+    },
+    {
+      "repository": "cyberdeliaAI/tagcast.wiki",
+      "commit": "095b8c1f1189a4cb5237d3d3cd9089924a8caefa",
+      "path": "Whats-saved-where.md",
+      "sha256": "9bca666ea19e37d15436b22b0dfe1eecc5d2a9a8f3e8e54137ff6074dde5820c",
+      "url": "https://github.com/cyberdeliaAI/tagcast/wiki/Whats-saved-where"
+    },
+    {
+      "repository": "cyberdeliaAI/tagcast.wiki",
+      "commit": "095b8c1f1189a4cb5237d3d3cd9089924a8caefa",
+      "path": "Workspace-controls.md",
+      "sha256": "25a8d5335f672a544bb99310ae888d9d6a72ef584e738bf805d5703d50e5afb3",
+      "url": "https://github.com/cyberdeliaAI/tagcast/wiki/Workspace-controls"
+    }
+  ],
+  "wiki_link_locators": [
+    {
+      "chapter": 1,
+      "wiki": "Getting-started",
+      "page_exists": true,
+      "fragment_exists": true
+    },
+    {
+      "chapter": 2,
+      "wiki": "Getting-started",
+      "page_exists": true,
+      "fragment_exists": true
+    },
+    {
+      "chapter": 3,
+      "wiki": "Connecting-to-iBroadcast",
+      "page_exists": true,
+      "fragment_exists": true
+    },
+    {
+      "chapter": 4,
+      "wiki": "Getting-started#closing-and-restarting-safely",
+      "page_exists": true,
+      "fragment_exists": true
+    },
+    {
+      "chapter": 5,
+      "wiki": "Browsing-and-discovery",
+      "page_exists": true,
+      "fragment_exists": true
+    },
+    {
+      "chapter": 6,
+      "wiki": "Browsing-and-discovery",
+      "page_exists": true,
+      "fragment_exists": true
+    },
+    {
+      "chapter": 7,
+      "wiki": "Browsing-and-discovery#overview-and-metadata-health",
+      "page_exists": true,
+      "fragment_exists": true
+    },
+    {
+      "chapter": 8,
+      "wiki": "Album-details",
+      "page_exists": true,
+      "fragment_exists": true
+    },
+    {
+      "chapter": 9,
+      "wiki": "Browsing-and-discovery#continuous-scroll",
+      "page_exists": true,
+      "fragment_exists": true
+    },
+    {
+      "chapter": 10,
+      "wiki": "Browsing-and-discovery#cached-browsing-and-library-refresh",
+      "page_exists": true,
+      "fragment_exists": true
+    },
+    {
+      "chapter": 11,
+      "wiki": "1001-Albums",
+      "page_exists": true,
+      "fragment_exists": true
+    },
+    {
+      "chapter": 12,
+      "wiki": "Album-details",
+      "page_exists": true,
+      "fragment_exists": true
+    },
+    {
+      "chapter": 13,
+      "wiki": "Playback-and-queue",
+      "page_exists": true,
+      "fragment_exists": true
+    },
+    {
+      "chapter": 14,
+      "wiki": "Playback-and-queue#optional-cd-view",
+      "page_exists": true,
+      "fragment_exists": true
+    },
+    {
+      "chapter": 15,
+      "wiki": "Playback-and-queue#desktop-mini-player",
+      "page_exists": true,
+      "fragment_exists": true
+    },
+    {
+      "chapter": 16,
+      "wiki": "Gapless-playback",
+      "page_exists": true,
+      "fragment_exists": true
+    },
+    {
+      "chapter": 17,
+      "wiki": "Playback-and-queue#eight-optional-music-visualizations",
+      "page_exists": true,
+      "fragment_exists": true
+    },
+    {
+      "chapter": 18,
+      "wiki": "Playback-and-queue#eight-optional-music-visualizations",
+      "page_exists": true,
+      "fragment_exists": true
+    },
+    {
+      "chapter": 19,
+      "wiki": "Playback-and-queue#playback-error-recovery",
+      "page_exists": true,
+      "fragment_exists": true
+    },
+    {
+      "chapter": 20,
+      "wiki": "Tags",
+      "page_exists": true,
+      "fragment_exists": true
+    },
+    {
+      "chapter": 21,
+      "wiki": "Playlists",
+      "page_exists": true,
+      "fragment_exists": true
+    },
+    {
+      "chapter": 22,
+      "wiki": "Importing-playlists",
+      "page_exists": true,
+      "fragment_exists": true
+    },
+    {
+      "chapter": 23,
+      "wiki": "Importing-playlists#pause-and-resume-csv-imports",
+      "page_exists": true,
+      "fragment_exists": true
+    },
+    {
+      "chapter": 24,
+      "wiki": "Playlists#appending-and-duplicate-positions",
+      "page_exists": true,
+      "fragment_exists": true
+    },
+    {
+      "chapter": 25,
+      "wiki": "Ratings-and-favourites",
+      "page_exists": true,
+      "fragment_exists": true
+    },
+    {
+      "chapter": 26,
+      "wiki": "Editing-metadata",
+      "page_exists": true,
+      "fragment_exists": true
+    },
+    {
+      "chapter": 27,
+      "wiki": "Artists-and-credits",
+      "page_exists": true,
+      "fragment_exists": true
+    },
+    {
+      "chapter": 28,
+      "wiki": "Saving-and-history",
+      "page_exists": true,
+      "fragment_exists": true
+    },
+    {
+      "chapter": 29,
+      "wiki": "Artwork-and-artist-images",
+      "page_exists": true,
+      "fragment_exists": true
+    },
+    {
+      "chapter": 30,
+      "wiki": "Saving-and-history",
+      "page_exists": true,
+      "fragment_exists": true
+    },
+    {
+      "chapter": 31,
+      "wiki": "Lyrics#now-playing-lyrics",
+      "page_exists": true,
+      "fragment_exists": true
+    },
+    {
+      "chapter": 32,
+      "wiki": "Importing-lyrics",
+      "page_exists": true,
+      "fragment_exists": true
+    },
+    {
+      "chapter": 33,
+      "wiki": "Importing-lyrics",
+      "page_exists": true,
+      "fragment_exists": true
+    },
+    {
+      "chapter": 34,
+      "wiki": "Metadata-cleanup",
+      "page_exists": true,
+      "fragment_exists": true
+    },
+    {
+      "chapter": 35,
+      "wiki": "Album-and-track-years",
+      "page_exists": true,
+      "fragment_exists": true
+    },
+    {
+      "chapter": 36,
+      "wiki": "Trash-and-duplicates",
+      "page_exists": true,
+      "fragment_exists": true
+    },
+    {
+      "chapter": 37,
+      "wiki": "Merge-albums",
+      "page_exists": true,
+      "fragment_exists": true
+    },
+    {
+      "chapter": 38,
+      "wiki": "Split-albums",
+      "page_exists": true,
+      "fragment_exists": true
+    },
+    {
+      "chapter": 39,
+      "wiki": "Music-uploads",
+      "page_exists": true,
+      "fragment_exists": true
+    },
+    {
+      "chapter": 40,
+      "wiki": "Downloads",
+      "page_exists": true,
+      "fragment_exists": true
+    },
+    {
+      "chapter": 41,
+      "wiki": "Downloads#quality-and-embedded-metadata",
+      "page_exists": true,
+      "fragment_exists": true
+    },
+    {
+      "chapter": 42,
+      "wiki": "Settings-and-help#interface-language",
+      "page_exists": true,
+      "fragment_exists": true
+    },
+    {
+      "chapter": 43,
+      "wiki": "Settings-and-help#playback",
+      "page_exists": true,
+      "fragment_exists": true
+    },
+    {
+      "chapter": 44,
+      "wiki": "Custom-themes",
+      "page_exists": true,
+      "fragment_exists": true
+    },
+    {
+      "chapter": 45,
+      "wiki": "Settings-and-help",
+      "page_exists": true,
+      "fragment_exists": true
+    },
+    {
+      "chapter": 46,
+      "wiki": "Exporting-library-metadata",
+      "page_exists": true,
+      "fragment_exists": true
+    },
+    {
+      "chapter": 47,
+      "wiki": "Whats-saved-where",
+      "page_exists": true,
+      "fragment_exists": true
+    },
+    {
+      "chapter": 48,
+      "wiki": "Troubleshooting",
+      "page_exists": true,
+      "fragment_exists": true
+    },
+    {
+      "chapter": 49,
+      "wiki": "Settings-and-help#keyboard-and-dialog-controls",
+      "page_exists": true,
+      "fragment_exists": true
+    },
+    {
+      "chapter": 50,
+      "wiki": "Home",
+      "page_exists": true,
+      "fragment_exists": true
+    }
+  ],
+  "limits": {
+    "review": "static source and existing-test inspection; no live feature testing",
+    "source_only_release_notes": false,
+    "screenshots_establish_runtime_behavior": false,
+    "application_or_wiki_writes": false,
+    "new_manual_content": false,
+    "screenshot_copy_or_redaction": false,
+    "publication": false
+  }
+}

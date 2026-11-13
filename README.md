@@ -11,6 +11,10 @@ The first reference edition preserves the existing **Tagcast 1.7.0** manual:
 52 A4 pages, 50 topics, 51 bookmarks, 100 internal links, 110 external links and
 44 figure placements from 43 original screenshots, plus the cover placement.
 
+The **1.9.0** candidate edition contains 56 A4 pages and 54 topics. It adds first
+setup, Playlist/Details, MusicBrainz track comparison and desktop update routes.
+The earlier 1.7.0 source, assets and visual baseline remain fixed.
+
 ## Build
 
 Install [uv](https://docs.astral.sh/uv/), clone this repository, then run from its root:
@@ -19,6 +23,9 @@ Install [uv](https://docs.astral.sh/uv/), clone this repository, then run from i
 uv sync --frozen --python 3.12.14
 uv run --frozen tagcast-manual build
 uv run --frozen tagcast-manual validate output/pdf/Tagcast-1.7.0-User-Manual.pdf
+
+# Build and verify the later edition in a separate output directory.
+uv run --frozen tagcast-manual verify --edition 1.9.0 --output output/pdf/1.9.0
 ```
 
 Dependency installation needs internet access. PDF rendering and validation use
@@ -44,6 +51,8 @@ timezones and ambient timestamps, and blocks Python socket operations. Both PDF
 bytes and deterministic source manifests must match. It then checks the
 historical text/layout and every page against the reviewed visual baseline.
 Reports, rendered pages and any visual differences are saved under `output/pdf/`.
+For 1.9.0, validation also checks every source paragraph, edition navigation,
+figure counts, page bounds and orphaned pages, then its own candidate baseline.
 
 CI runs these checks independently on Ubuntu and macOS. Exact bytes are required
 within each locked environment. Cross-platform byte equality is reported only
@@ -55,6 +64,8 @@ supported CI environment.
 
 - `content/editions/1.7.0/en/`: the effective, reviewed English text in Markdown,
   chapter order, edition metadata and cover copy.
+- `content/editions/1.9.0/en/`: the later editorial snapshot, selected explicitly
+  with `--edition 1.9.0`; matching image manifests live in `manifests/1.9.0/`.
 - `templates/tagcast/`: typography, colours and layout values.
 - `assets/`: selected unchanged screenshots, bundled fonts and attribution.
 - `manifests/`: original hashes, source revisions, figure crops and sizing.
@@ -62,6 +73,8 @@ supported CI environment.
   preserved byte for byte and never executed by normal builds.
 - `tests/reference/1.7.0/`: original text/geometry/image reference and reviewed
   new-renderer PNGs. Updating them is an explicit editorial action.
+- `tests/reference/1.9.0/`: the visually inspected 1.9.0 candidate baseline;
+  regression checks do not substitute for publication approval.
 
 See [authoring](docs/authoring.md), [migration evidence](docs/reference-edition.md)
 and [publishing boundaries](docs/publishing.md).

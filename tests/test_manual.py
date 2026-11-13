@@ -8,7 +8,7 @@ from unittest.mock import patch
 from pypdf import PdfReader, PdfWriter
 
 from tagcast_manual.content import inline, load_chapter, parse_blocks
-from tagcast_manual.provenance import local_path, verify_assets
+from tagcast_manual.provenance import local_path, sha256, verify_assets
 from tagcast_manual.render import Design, DeterministicCanvas, GuideDoc, build
 from tagcast_manual.validate import validate
 
@@ -92,6 +92,10 @@ class PDFTests(unittest.TestCase):
         self.assertTrue(reader.metadata['/CreationDate'].startswith('D:20261111000000'))
         self.assertEqual('en', reader.trailer['/Root']['/Lang'])
         self.assertEqual(44, len(self.manifest['image_uses']))
+
+    def test_reference_pdf_bytes_remain_unchanged(self):
+        self.assertEqual('7b0a384006e6f71f114ee3424f75b286a81f3b7fd83ae30a06c458a4e29a8bce',
+                         sha256(self.pdf))
 
     def test_a_changed_external_link_fails_validation(self):
         reader = PdfReader(self.pdf)

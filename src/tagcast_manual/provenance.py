@@ -3,6 +3,7 @@
 import hashlib
 import json
 import platform
+import re
 import tomllib
 from importlib.metadata import version
 from pathlib import Path
@@ -25,15 +26,35 @@ def local_path(root, relative):
     return path
 
 
-def verify_assets(root):
-    screenshots = read_json(root / 'manifests/screenshots.json')
+def edition_directory(root, edition='1.7.0'):
+    if not re.fullmatch(r'[0-9]+\.[0-9]+\.[0-9]+', edition):
+        raise ValueError('Choose an edition using a stable version, such as 1.9.0')
+    relative = f'content/editions/{edition}/en/edition.json'
+    return local_path(root, relative).parent
+
+
+def load_edition(root, edition='1.7.0'):
+    data = read_json(edition_directory(root, edition) / 'edition.json')
+    if data['app_version'] != edition:
+        raise ValueError('Edition identity does not match its directory')
+    filename = data['filename']
+    if Path(filename).name != filename or not filename.endswith('.pdf'):
+        raise ValueError('Edition output must be a PDF filename without a directory')
+    return data
+
+
+def verify_assets(root, edition='1.7.0'):
+    if not re.fullmatch(r'[0-9]+\.[0-9]+\.[0-9]+', edition):
+        raise ValueError('Invalid edition version')
+    manifests = root / 'manifests' if edition == '1.7.0' else root / 'manifests' / edition
+    screenshots = read_json(manifests / 'screenshots.json')
     fonts = read_json(root / 'manifests/fonts.json')['fonts']
     legacy = read_json(root / 'manifests/legacy.json')
     for item in [*screenshots.values(), *fonts.values(), *legacy]:
         path = local_path(root, item['path'])
         if sha256(path) != item['sha256']:
             raise ValueError(f'Input hash mismatch: {item["path"]}')
-    figures = read_json(root / 'manifests/figures.json')
+    figures = read_json(manifests / 'figures.json')
     for key, figure in figures.items():
         if figure['asset'] not in screenshots:
             raise ValueError(f'Unknown screenshot in {key}')

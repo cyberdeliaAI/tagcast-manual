@@ -1,0 +1,476 @@
+{
+  "shot-049aafcc2b4472a1": {
+    "path": "assets/screenshots/2026-11-11-manual/connect-ibroadcast.png",
+    "sha256": "049aafcc2b4472a1212770b37d63f5fc92f56861e1e9d30acddc93bab6631be9",
+    "source_path": "docs/screenshots/2026-11-11-manual/connect-ibroadcast.png",
+    "source_commit": "9b47dae9ba917da0bcdfc93b8d6fa52c0c23c900",
+    "source_url": "https://github.com/cyberdeliaAI/tagcast/blob/9b47dae9ba917da0bcdfc93b8d6fa52c0c23c900/docs/screenshots/2026-11-11-manual/connect-ibroadcast.png",
+    "inventory": "assets/attribution/2026-11-11-manual/inventory.txt"
+  },
+  "shot-12b011a6f463f740": {
+    "path": "assets/screenshots/2026-11-11-interface/albums-continuous-random.png",
+    "sha256": "12b011a6f463f740da4204595eb00090114af52281129febabc8f4c9dc540145",
+    "source_path": "docs/screenshots/2026-11-11-interface/albums-continuous-random.png",
+    "source_commit": "9b47dae9ba917da0bcdfc93b8d6fa52c0c23c900",
+    "source_url": "https://github.com/cyberdeliaAI/tagcast/blob/9b47dae9ba917da0bcdfc93b8d6fa52c0c23c900/docs/screenshots/2026-11-11-interface/albums-continuous-random.png",
+    "inventory": "assets/attribution/2026-11-11-interface/inventory.txt"
+  },
+  "shot-e2ed73c70bfd6f58": {
+    "path": "assets/screenshots/2026-11-11-interface/album-full-house.png",
+    "sha256": "e2ed73c70bfd6f58dd49a71e3e9e1d95c363f60eacd692da67c22a4ec7972a32",
+    "source_path": "docs/screenshots/2026-11-11-interface/album-full-house.png",
+    "source_commit": "9b47dae9ba917da0bcdfc93b8d6fa52c0c23c900",
+    "source_url": "https://github.com/cyberdeliaAI/tagcast/blob/9b47dae9ba917da0bcdfc93b8d6fa52c0c23c900/docs/screenshots/2026-11-11-interface/album-full-house.png",
+    "inventory": "assets/attribution/2026-11-11-interface/inventory.txt"
+  },
+  "shot-14c9c453f9218c8c": {
+    "path": "assets/screenshots/2026-11-11-guide/overview-redacted.png",
+    "sha256": "14c9c453f9218c8cf6189fbd69247c33e2823a4612e539fcb0da219d398aff73",
+    "source_path": "docs/screenshots/2026-11-11-guide/overview-redacted.png",
+    "source_commit": "9b47dae9ba917da0bcdfc93b8d6fa52c0c23c900",
+    "source_url": "https://github.com/cyberdeliaAI/tagcast/blob/9b47dae9ba917da0bcdfc93b8d6fa52c0c23c900/docs/screenshots/2026-11-11-guide/overview-redacted.png",
+    "inventory": "assets/attribution/2026-11-11-guide/inventory.txt"
+  },
+  "shot-27f75d869d126e5e": {
+    "path": "assets/screenshots/2026-11-11-manual/1001-not-found.png",
+    "sha256": "27f75d869d126e5e71352c8093cde0e72974eaa3243e70b89803ce6246e30299",
+    "source_path": "docs/screenshots/2026-11-11-manual/1001-not-found.png",
+    "source_commit": "9b47dae9ba917da0bcdfc93b8d6fa52c0c23c900",
+    "source_url": "https://github.com/cyberdeliaAI/tagcast/blob/9b47dae9ba917da0bcdfc93b8d6fa52c0c23c900/docs/screenshots/2026-11-11-manual/1001-not-found.png",
+    "inventory": "assets/attribution/2026-11-11-manual/inventory.txt"
+  },
+  "shot-2eb670cded16d25e": {
+    "path": "assets/screenshots/2026-11-11-manual/1001-manual-match.png",
+    "sha256": "2eb670cded16d25e9873fef23c897e5ebd53811ae8d5c79d98e9f0a64db237e5",
+    "source_path": "docs/screenshots/2026-11-11-manual/1001-manual-match.png",
+    "source_commit": "9b47dae9ba917da0bcdfc93b8d6fa52c0c23c900",
+    "source_url": "https://github.com/cyberdeliaAI/tagcast/blob/9b47dae9ba917da0bcdfc93b8d6fa52c0c23c900/docs/screenshots/2026-11-11-manual/1001-manual-match.png",
+    "inventory": "assets/attribution/2026-11-11-manual/inventory.txt"
+  },
+  "shot-4fcbdb84239ffad7": {
+    "path": "assets/screenshots/2026-11-11-manual/album-mobile.png",
+    "sha256": "4fcbdb84239ffad78021ea70d47849f3ee8995ab332c7fb915184adcdf0b1f22",
+    "source_path": "docs/screenshots/2026-11-11-manual/album-mobile.png",
+    "source_commit": "9b47dae9ba917da0bcdfc93b8d6fa52c0c23c900",
+    "source_url": "https://github.com/cyberdeliaAI/tagcast/blob/9b47dae9ba917da0bcdfc93b8d6fa52c0c23c900/docs/screenshots/2026-11-11-manual/album-mobile.png",
+    "inventory": "assets/attribution/2026-11-11-manual/inventory.txt"
+  },
+  "shot-62f3f7d4fcfcd99d": {
+    "path": "assets/screenshots/2026-11-11-interface/now-playing-lyrics-queue.png",
+    "sha256": "62f3f7d4fcfcd99dee5461e9087e81be68e9c023c6b2c25a71e35c34557dd6c3",
+    "source_path": "docs/screenshots/2026-11-11-interface/now-playing-lyrics-queue.png",
+    "source_commit": "9b47dae9ba917da0bcdfc93b8d6fa52c0c23c900",
+    "source_url": "https://github.com/cyberdeliaAI/tagcast/blob/9b47dae9ba917da0bcdfc93b8d6fa52c0c23c900/docs/screenshots/2026-11-11-interface/now-playing-lyrics-queue.png",
+    "inventory": "assets/attribution/2026-11-11-interface/inventory.txt"
+  },
+  "shot-eb2c5802a99b1f4c": {
+    "path": "assets/screenshots/2026-11-11-interface/fullscreen-cd-lyrics.png",
+    "sha256": "eb2c5802a99b1f4ce2f86650e29689da17eb62fa10ce13d4b2932a88fcdd72ef",
+    "source_path": "docs/screenshots/2026-11-11-interface/fullscreen-cd-lyrics.png",
+    "source_commit": "9b47dae9ba917da0bcdfc93b8d6fa52c0c23c900",
+    "source_url": "https://github.com/cyberdeliaAI/tagcast/blob/9b47dae9ba917da0bcdfc93b8d6fa52c0c23c900/docs/screenshots/2026-11-11-interface/fullscreen-cd-lyrics.png",
+    "inventory": "assets/attribution/2026-11-11-interface/inventory.txt"
+  },
+  "shot-f74f62edf3a5f3a9": {
+    "path": "assets/screenshots/2026-11-11-guide/mini-player.png",
+    "sha256": "f74f62edf3a5f3a918a16dbf028397c0d4b8aa4e4b149be89623775f064e2ff7",
+    "source_path": "docs/screenshots/2026-11-11-guide/mini-player.png",
+    "source_commit": "9b47dae9ba917da0bcdfc93b8d6fa52c0c23c900",
+    "source_url": "https://github.com/cyberdeliaAI/tagcast/blob/9b47dae9ba917da0bcdfc93b8d6fa52c0c23c900/docs/screenshots/2026-11-11-guide/mini-player.png",
+    "inventory": "assets/attribution/2026-11-11-guide/inventory.txt"
+  },
+  "shot-c8b1ea49e7a73ba4": {
+    "path": "assets/screenshots/2026-11-11-visualizations/milkdrop-aurora.png",
+    "sha256": "c8b1ea49e7a73ba4b8aca1f4e336fa0e227963511b8cca939a6bddad5dfde198",
+    "source_path": "docs/screenshots/2026-11-11-visualizations/milkdrop-aurora.png",
+    "source_commit": "9b47dae9ba917da0bcdfc93b8d6fa52c0c23c900",
+    "source_url": "https://github.com/cyberdeliaAI/tagcast/blob/9b47dae9ba917da0bcdfc93b8d6fa52c0c23c900/docs/screenshots/2026-11-11-visualizations/milkdrop-aurora.png",
+    "inventory": "assets/attribution/2026-11-11-visualizations/inventory.txt"
+  },
+  "shot-45ed3429f0c33c1e": {
+    "path": "assets/screenshots/2026-11-11-visualizations/milkdrop-orbit.png",
+    "sha256": "45ed3429f0c33c1efad0424a10f96d8f00180574429c6e229a6e83ddfb2e6b7c",
+    "source_path": "docs/screenshots/2026-11-11-visualizations/milkdrop-orbit.png",
+    "source_commit": "9b47dae9ba917da0bcdfc93b8d6fa52c0c23c900",
+    "source_url": "https://github.com/cyberdeliaAI/tagcast/blob/9b47dae9ba917da0bcdfc93b8d6fa52c0c23c900/docs/screenshots/2026-11-11-visualizations/milkdrop-orbit.png",
+    "inventory": "assets/attribution/2026-11-11-visualizations/inventory.txt"
+  },
+  "shot-6e011d78801b8257": {
+    "path": "assets/screenshots/2026-11-11-visualizations/milkdrop-ribbons.png",
+    "sha256": "6e011d78801b82572e50a4c609ff6c61be9c86c2323c3d4ceba145c8039b12a8",
+    "source_path": "docs/screenshots/2026-11-11-visualizations/milkdrop-ribbons.png",
+    "source_commit": "9b47dae9ba917da0bcdfc93b8d6fa52c0c23c900",
+    "source_url": "https://github.com/cyberdeliaAI/tagcast/blob/9b47dae9ba917da0bcdfc93b8d6fa52c0c23c900/docs/screenshots/2026-11-11-visualizations/milkdrop-ribbons.png",
+    "inventory": "assets/attribution/2026-11-11-visualizations/inventory.txt"
+  },
+  "shot-7be24295e18243ec": {
+    "path": "assets/screenshots/2026-11-11-visualizations/led-spectrum.png",
+    "sha256": "7be24295e18243ec809b308beebf3f850dcdc638a845b49e786c178f7fb08c89",
+    "source_path": "docs/screenshots/2026-11-11-visualizations/led-spectrum.png",
+    "source_commit": "9b47dae9ba917da0bcdfc93b8d6fa52c0c23c900",
+    "source_url": "https://github.com/cyberdeliaAI/tagcast/blob/9b47dae9ba917da0bcdfc93b8d6fa52c0c23c900/docs/screenshots/2026-11-11-visualizations/led-spectrum.png",
+    "inventory": "assets/attribution/2026-11-11-visualizations/inventory.txt"
+  },
+  "shot-74f852a45fe829b3": {
+    "path": "assets/screenshots/2026-11-11-visualizations/oscilloscope.png",
+    "sha256": "74f852a45fe829b370486c652860e3b98b1984fc37a438e2a5436ec09c64919c",
+    "source_path": "docs/screenshots/2026-11-11-visualizations/oscilloscope.png",
+    "source_commit": "9b47dae9ba917da0bcdfc93b8d6fa52c0c23c900",
+    "source_url": "https://github.com/cyberdeliaAI/tagcast/blob/9b47dae9ba917da0bcdfc93b8d6fa52c0c23c900/docs/screenshots/2026-11-11-visualizations/oscilloscope.png",
+    "inventory": "assets/attribution/2026-11-11-visualizations/inventory.txt"
+  },
+  "shot-a9e1d715b89aea8d": {
+    "path": "assets/screenshots/2026-11-11-visualizations/neon-ring.png",
+    "sha256": "a9e1d715b89aea8da1c88f3604492ab6991f0a5308e9916e3331256ba8a4f9b6",
+    "source_path": "docs/screenshots/2026-11-11-visualizations/neon-ring.png",
+    "source_commit": "9b47dae9ba917da0bcdfc93b8d6fa52c0c23c900",
+    "source_url": "https://github.com/cyberdeliaAI/tagcast/blob/9b47dae9ba917da0bcdfc93b8d6fa52c0c23c900/docs/screenshots/2026-11-11-visualizations/neon-ring.png",
+    "inventory": "assets/attribution/2026-11-11-visualizations/inventory.txt"
+  },
+  "shot-6ebfd09895b9ebf1": {
+    "path": "assets/screenshots/2026-11-11-visualizations/starfield.png",
+    "sha256": "6ebfd09895b9ebf1f2f1982340eb7a172a125aeed516213d222c8c977e1b9535",
+    "source_path": "docs/screenshots/2026-11-11-visualizations/starfield.png",
+    "source_commit": "9b47dae9ba917da0bcdfc93b8d6fa52c0c23c900",
+    "source_url": "https://github.com/cyberdeliaAI/tagcast/blob/9b47dae9ba917da0bcdfc93b8d6fa52c0c23c900/docs/screenshots/2026-11-11-visualizations/starfield.png",
+    "inventory": "assets/attribution/2026-11-11-visualizations/inventory.txt"
+  },
+  "shot-d0f0560662cf4145": {
+    "path": "assets/screenshots/2026-11-11-visualizations/waterfall.png",
+    "sha256": "d0f0560662cf41456029a800c12bc7ffa8ad0a77a961785a83a5a1a254e78ae7",
+    "source_path": "docs/screenshots/2026-11-11-visualizations/waterfall.png",
+    "source_commit": "9b47dae9ba917da0bcdfc93b8d6fa52c0c23c900",
+    "source_url": "https://github.com/cyberdeliaAI/tagcast/blob/9b47dae9ba917da0bcdfc93b8d6fa52c0c23c900/docs/screenshots/2026-11-11-visualizations/waterfall.png",
+    "inventory": "assets/attribution/2026-11-11-visualizations/inventory.txt"
+  },
+  "shot-922eb860c1077c87": {
+    "path": "assets/screenshots/2026-11-11-manual/tag-manager.png",
+    "sha256": "922eb860c1077c87e7a8e943ee53c63c981d00b8126adbe4dcc2a8c0c966fb4e",
+    "source_path": "docs/screenshots/2026-11-11-manual/tag-manager.png",
+    "source_commit": "9b47dae9ba917da0bcdfc93b8d6fa52c0c23c900",
+    "source_url": "https://github.com/cyberdeliaAI/tagcast/blob/9b47dae9ba917da0bcdfc93b8d6fa52c0c23c900/docs/screenshots/2026-11-11-manual/tag-manager.png",
+    "inventory": "assets/attribution/2026-11-11-manual/inventory.txt"
+  },
+  "shot-b7a6c1a6c1a0cd5d": {
+    "path": "assets/screenshots/2026-11-11-guide/playlist-details.png",
+    "sha256": "b7a6c1a6c1a0cd5dc7146eb61167d44b9dc09277d8895e544443651dedaa01f1",
+    "source_path": "docs/screenshots/2026-11-11-guide/playlist-details.png",
+    "source_commit": "9b47dae9ba917da0bcdfc93b8d6fa52c0c23c900",
+    "source_url": "https://github.com/cyberdeliaAI/tagcast/blob/9b47dae9ba917da0bcdfc93b8d6fa52c0c23c900/docs/screenshots/2026-11-11-guide/playlist-details.png",
+    "inventory": "assets/attribution/2026-11-11-guide/inventory.txt"
+  },
+  "shot-00d10a65a8b54f27": {
+    "path": "assets/screenshots/2026-11-11-guide/playlist-import-columns.png",
+    "sha256": "00d10a65a8b54f27175ce944dfb5ad7482099039471cc6a23f37de3c767f3a01",
+    "source_path": "docs/screenshots/2026-11-11-guide/playlist-import-columns.png",
+    "source_commit": "9b47dae9ba917da0bcdfc93b8d6fa52c0c23c900",
+    "source_url": "https://github.com/cyberdeliaAI/tagcast/blob/9b47dae9ba917da0bcdfc93b8d6fa52c0c23c900/docs/screenshots/2026-11-11-guide/playlist-import-columns.png",
+    "inventory": "assets/attribution/2026-11-11-guide/inventory.txt"
+  },
+  "shot-12ff82458113edaf": {
+    "path": "assets/screenshots/2026-11-11-guide/playlist-import-choose.png",
+    "sha256": "12ff82458113edaf0877fa49cf9b7caeba05c80f3fba7ee953b6a0a204313b41",
+    "source_path": "docs/screenshots/2026-11-11-guide/playlist-import-choose.png",
+    "source_commit": "9b47dae9ba917da0bcdfc93b8d6fa52c0c23c900",
+    "source_url": "https://github.com/cyberdeliaAI/tagcast/blob/9b47dae9ba917da0bcdfc93b8d6fa52c0c23c900/docs/screenshots/2026-11-11-guide/playlist-import-choose.png",
+    "inventory": "assets/attribution/2026-11-11-guide/inventory.txt"
+  },
+  "shot-1ca70493c2c74b49": {
+    "path": "assets/screenshots/2026-11-11-guide/playlist-order.png",
+    "sha256": "1ca70493c2c74b4961c0f458c94bf2c4ff317a7ce5bc7862e41c186d15bff8c4",
+    "source_path": "docs/screenshots/2026-11-11-guide/playlist-order.png",
+    "source_commit": "9b47dae9ba917da0bcdfc93b8d6fa52c0c23c900",
+    "source_url": "https://github.com/cyberdeliaAI/tagcast/blob/9b47dae9ba917da0bcdfc93b8d6fa52c0c23c900/docs/screenshots/2026-11-11-guide/playlist-order.png",
+    "inventory": "assets/attribution/2026-11-11-guide/inventory.txt"
+  },
+  "shot-edc6611c13afab74": {
+    "path": "assets/screenshots/2026-11-11-guide/favourites-light.png",
+    "sha256": "edc6611c13afab745577658180fd559e35cb0f1734c95aea6c7d56f2c8baa405",
+    "source_path": "docs/screenshots/2026-11-11-guide/favourites-light.png",
+    "source_commit": "9b47dae9ba917da0bcdfc93b8d6fa52c0c23c900",
+    "source_url": "https://github.com/cyberdeliaAI/tagcast/blob/9b47dae9ba917da0bcdfc93b8d6fa52c0c23c900/docs/screenshots/2026-11-11-guide/favourites-light.png",
+    "inventory": "assets/attribution/2026-11-11-guide/inventory.txt"
+  },
+  "shot-28899997d95e1a69": {
+    "path": "assets/screenshots/2026-11-11-interface/editor-album.png",
+    "sha256": "28899997d95e1a6979bc1c3c9c44f5fa2b3f1684c3c2c08222c14f12abec7c37",
+    "source_path": "docs/screenshots/2026-11-11-interface/editor-album.png",
+    "source_commit": "9b47dae9ba917da0bcdfc93b8d6fa52c0c23c900",
+    "source_url": "https://github.com/cyberdeliaAI/tagcast/blob/9b47dae9ba917da0bcdfc93b8d6fa52c0c23c900/docs/screenshots/2026-11-11-interface/editor-album.png",
+    "inventory": "assets/attribution/2026-11-11-interface/inventory.txt"
+  },
+  "shot-30f14c140af1c957": {
+    "path": "assets/screenshots/2026-11-11-guide/editor-tracks.png",
+    "sha256": "30f14c140af1c957ab4a9c089314ecf5d44e2d11b8dab9a78eb6e7bce61f3656",
+    "source_path": "docs/screenshots/2026-11-11-guide/editor-tracks.png",
+    "source_commit": "9b47dae9ba917da0bcdfc93b8d6fa52c0c23c900",
+    "source_url": "https://github.com/cyberdeliaAI/tagcast/blob/9b47dae9ba917da0bcdfc93b8d6fa52c0c23c900/docs/screenshots/2026-11-11-guide/editor-tracks.png",
+    "inventory": "assets/attribution/2026-11-11-guide/inventory.txt"
+  },
+  "shot-6aed833d144eca09": {
+    "path": "assets/screenshots/2026-11-11-manual/composer-review.png",
+    "sha256": "6aed833d144eca0970b8f1a68ab24f9ebf7005463167ee4a0709bc68eebef558",
+    "source_path": "docs/screenshots/2026-11-11-manual/composer-review.png",
+    "source_commit": "9b47dae9ba917da0bcdfc93b8d6fa52c0c23c900",
+    "source_url": "https://github.com/cyberdeliaAI/tagcast/blob/9b47dae9ba917da0bcdfc93b8d6fa52c0c23c900/docs/screenshots/2026-11-11-manual/composer-review.png",
+    "inventory": "assets/attribution/2026-11-11-manual/inventory.txt"
+  },
+  "shot-c425be414c7cdefc": {
+    "path": "assets/screenshots/2026-11-11-guide/album-cover-review.png",
+    "sha256": "c425be414c7cdefcdf270f8618691fe93c443d3482070ce8bc15f5375fc4230d",
+    "source_path": "docs/screenshots/2026-11-11-guide/album-cover-review.png",
+    "source_commit": "9b47dae9ba917da0bcdfc93b8d6fa52c0c23c900",
+    "source_url": "https://github.com/cyberdeliaAI/tagcast/blob/9b47dae9ba917da0bcdfc93b8d6fa52c0c23c900/docs/screenshots/2026-11-11-guide/album-cover-review.png",
+    "inventory": "assets/attribution/2026-11-11-guide/inventory.txt"
+  },
+  "shot-ea56e214882e50f7": {
+    "path": "assets/screenshots/2026-11-11-manual/composer-confirmed.png",
+    "sha256": "ea56e214882e50f7a76c2dc42c59bd75d24b2d0b6ac64644e92da443d1d34967",
+    "source_path": "docs/screenshots/2026-11-11-manual/composer-confirmed.png",
+    "source_commit": "9b47dae9ba917da0bcdfc93b8d6fa52c0c23c900",
+    "source_url": "https://github.com/cyberdeliaAI/tagcast/blob/9b47dae9ba917da0bcdfc93b8d6fa52c0c23c900/docs/screenshots/2026-11-11-manual/composer-confirmed.png",
+    "inventory": "assets/attribution/2026-11-11-manual/inventory.txt"
+  },
+  "shot-4c147e15841e3629": {
+    "path": "assets/screenshots/2026-11-11-manual/artwork-saving.png",
+    "sha256": "4c147e15841e3629602d96b0a8c2ca38cedf60b93088f0b63e44fafd79939170",
+    "source_path": "docs/screenshots/2026-11-11-manual/artwork-saving.png",
+    "source_commit": "9b47dae9ba917da0bcdfc93b8d6fa52c0c23c900",
+    "source_url": "https://github.com/cyberdeliaAI/tagcast/blob/9b47dae9ba917da0bcdfc93b8d6fa52c0c23c900/docs/screenshots/2026-11-11-manual/artwork-saving.png",
+    "inventory": "assets/attribution/2026-11-11-manual/inventory.txt"
+  },
+  "shot-27dd9b64a7866141": {
+    "path": "assets/screenshots/2026-11-11-interface/fullscreen-cover-lyrics.png",
+    "sha256": "27dd9b64a7866141acd2fbb7f1c26d0c08573e65d6de1cf46c75e58a46a0874e",
+    "source_path": "docs/screenshots/2026-11-11-interface/fullscreen-cover-lyrics.png",
+    "source_commit": "9b47dae9ba917da0bcdfc93b8d6fa52c0c23c900",
+    "source_url": "https://github.com/cyberdeliaAI/tagcast/blob/9b47dae9ba917da0bcdfc93b8d6fa52c0c23c900/docs/screenshots/2026-11-11-interface/fullscreen-cover-lyrics.png",
+    "inventory": "assets/attribution/2026-11-11-interface/inventory.txt"
+  },
+  "shot-dd6a7f880aadba60": {
+    "path": "assets/screenshots/2026-11-11-guide/lyrics-import-matching.png",
+    "sha256": "dd6a7f880aadba601d9e9aa286123da22793c8490dd17673a1e1315f43582fdd",
+    "source_path": "docs/screenshots/2026-11-11-guide/lyrics-import-matching.png",
+    "source_commit": "9b47dae9ba917da0bcdfc93b8d6fa52c0c23c900",
+    "source_url": "https://github.com/cyberdeliaAI/tagcast/blob/9b47dae9ba917da0bcdfc93b8d6fa52c0c23c900/docs/screenshots/2026-11-11-guide/lyrics-import-matching.png",
+    "inventory": "assets/attribution/2026-11-11-guide/inventory.txt"
+  },
+  "shot-e2db50ce9d3ff4b5": {
+    "path": "assets/screenshots/2026-11-11-guide/lyrics-import-review.png",
+    "sha256": "e2db50ce9d3ff4b5812594c7b457de4fb4e6be7855292631c1f9bf138a360416",
+    "source_path": "docs/screenshots/2026-11-11-guide/lyrics-import-review.png",
+    "source_commit": "9b47dae9ba917da0bcdfc93b8d6fa52c0c23c900",
+    "source_url": "https://github.com/cyberdeliaAI/tagcast/blob/9b47dae9ba917da0bcdfc93b8d6fa52c0c23c900/docs/screenshots/2026-11-11-guide/lyrics-import-review.png",
+    "inventory": "assets/attribution/2026-11-11-guide/inventory.txt"
+  },
+  "shot-3ff4bc7fe01f1b43": {
+    "path": "assets/screenshots/2026-10-22/cleanup-genre-labels.png",
+    "sha256": "3ff4bc7fe01f1b43d7f7db201ca4b934b723f28715e2131be22a5c4c14f184f4",
+    "source_path": "docs/screenshots/2026-10-22/cleanup-genre-labels.png",
+    "source_commit": "9b47dae9ba917da0bcdfc93b8d6fa52c0c23c900",
+    "source_url": "https://github.com/cyberdeliaAI/tagcast/blob/9b47dae9ba917da0bcdfc93b8d6fa52c0c23c900/docs/screenshots/2026-10-22/cleanup-genre-labels.png",
+    "inventory": "assets/attribution/2026-10-22/inventory.txt"
+  },
+  "shot-4beb87f804c20fec": {
+    "path": "assets/screenshots/2026-10-28-year-review/year-comparison.png",
+    "sha256": "4beb87f804c20fecb37b23e8d5f56563ca68bb83caf3ee9cafec0e6591c84f62",
+    "source_path": "docs/screenshots/2026-10-28-year-review/year-comparison.png",
+    "source_commit": "9b47dae9ba917da0bcdfc93b8d6fa52c0c23c900",
+    "source_url": "https://github.com/cyberdeliaAI/tagcast/blob/9b47dae9ba917da0bcdfc93b8d6fa52c0c23c900/docs/screenshots/2026-10-28-year-review/year-comparison.png"
+  },
+  "shot-53380e335d8db62d": {
+    "path": "assets/screenshots/duplicate-tracks-upload-suggestions.png",
+    "sha256": "53380e335d8db62d6df712d5b2fc1f9b72453d912b6052e8ab53939861472a45",
+    "source_path": "docs/screenshots/duplicate-tracks-upload-suggestions.png",
+    "source_commit": "9b47dae9ba917da0bcdfc93b8d6fa52c0c23c900",
+    "source_url": "https://github.com/cyberdeliaAI/tagcast/blob/9b47dae9ba917da0bcdfc93b8d6fa52c0c23c900/docs/screenshots/duplicate-tracks-upload-suggestions.png"
+  },
+  "shot-733fdb16204399c8": {
+    "path": "assets/screenshots/2026-10-27-album-merge/destination-album.png",
+    "sha256": "733fdb16204399c8c2de33c54f2bb575295f5a703b820dadf1a042a8de489f54",
+    "source_path": "docs/screenshots/2026-10-27-album-merge/destination-album.png",
+    "source_commit": "9b47dae9ba917da0bcdfc93b8d6fa52c0c23c900",
+    "source_url": "https://github.com/cyberdeliaAI/tagcast/blob/9b47dae9ba917da0bcdfc93b8d6fa52c0c23c900/docs/screenshots/2026-10-27-album-merge/destination-album.png",
+    "inventory": "assets/attribution/2026-10-27-album-merge/inventory.txt"
+  },
+  "shot-ef0ed24bf1888e47": {
+    "path": "assets/screenshots/2026-11-07-album-split/split-selection.png",
+    "sha256": "ef0ed24bf1888e472daa245626920035b30d6ac9b94225a6f67c11f83e49ccbe",
+    "source_path": "docs/screenshots/2026-11-07-album-split/split-selection.png",
+    "source_commit": "9b47dae9ba917da0bcdfc93b8d6fa52c0c23c900",
+    "source_url": "https://github.com/cyberdeliaAI/tagcast/blob/9b47dae9ba917da0bcdfc93b8d6fa52c0c23c900/docs/screenshots/2026-11-07-album-split/split-selection.png",
+    "inventory": "assets/attribution/2026-11-07-album-split/inventory.txt"
+  },
+  "shot-6bc242429938b5dd": {
+    "path": "assets/screenshots/2026-11-11-guide/upload-review.png",
+    "sha256": "6bc242429938b5dd090196dd5ac0251c235b7a64864041a614e08de9d7edd3a0",
+    "source_path": "docs/screenshots/2026-11-11-guide/upload-review.png",
+    "source_commit": "9b47dae9ba917da0bcdfc93b8d6fa52c0c23c900",
+    "source_url": "https://github.com/cyberdeliaAI/tagcast/blob/9b47dae9ba917da0bcdfc93b8d6fa52c0c23c900/docs/screenshots/2026-11-11-guide/upload-review.png",
+    "inventory": "assets/attribution/2026-11-11-guide/inventory.txt"
+  },
+  "shot-244bb021650e39c1": {
+    "path": "assets/screenshots/2026-11-11-guide/download-review.png",
+    "sha256": "244bb021650e39c12f54ebb3a44d4f5725917cb0303400b7c10c3d5a3aa280c2",
+    "source_path": "docs/screenshots/2026-11-11-guide/download-review.png",
+    "source_commit": "9b47dae9ba917da0bcdfc93b8d6fa52c0c23c900",
+    "source_url": "https://github.com/cyberdeliaAI/tagcast/blob/9b47dae9ba917da0bcdfc93b8d6fa52c0c23c900/docs/screenshots/2026-11-11-guide/download-review.png",
+    "inventory": "assets/attribution/2026-11-11-guide/inventory.txt"
+  },
+  "shot-71837cadebf83389": {
+    "path": "assets/screenshots/2026-11-11-guide/settings-interface.png",
+    "sha256": "71837cadebf83389d98f500bb7401fae75caa97ebd4fe459a448b5c899aeb1bd",
+    "source_path": "docs/screenshots/2026-11-11-guide/settings-interface.png",
+    "source_commit": "9b47dae9ba917da0bcdfc93b8d6fa52c0c23c900",
+    "source_url": "https://github.com/cyberdeliaAI/tagcast/blob/9b47dae9ba917da0bcdfc93b8d6fa52c0c23c900/docs/screenshots/2026-11-11-guide/settings-interface.png",
+    "inventory": "assets/attribution/2026-11-11-guide/inventory.txt"
+  },
+  "shot-85f963f9384dfe3b": {
+    "path": "assets/screenshots/2026-11-11-guide/settings-playback.png",
+    "sha256": "85f963f9384dfe3b4f921212f550d25e8993a29405c2295e080e4442281cf38d",
+    "source_path": "docs/screenshots/2026-11-11-guide/settings-playback.png",
+    "source_commit": "9b47dae9ba917da0bcdfc93b8d6fa52c0c23c900",
+    "source_url": "https://github.com/cyberdeliaAI/tagcast/blob/9b47dae9ba917da0bcdfc93b8d6fa52c0c23c900/docs/screenshots/2026-11-11-guide/settings-playback.png",
+    "inventory": "assets/attribution/2026-11-11-guide/inventory.txt"
+  },
+  "shot-88f0b1c7c522486f": {
+    "path": "assets/screenshots/2026-11-11-guide/settings-appearance.png",
+    "sha256": "88f0b1c7c522486f2afaa9fb238656cafc737233b4a958e8d2984d44b266a831",
+    "source_path": "docs/screenshots/2026-11-11-guide/settings-appearance.png",
+    "source_commit": "9b47dae9ba917da0bcdfc93b8d6fa52c0c23c900",
+    "source_url": "https://github.com/cyberdeliaAI/tagcast/blob/9b47dae9ba917da0bcdfc93b8d6fa52c0c23c900/docs/screenshots/2026-11-11-guide/settings-appearance.png",
+    "inventory": "assets/attribution/2026-11-11-guide/inventory.txt"
+  },
+  "shot-f9e0d2815bffe547": {
+    "path": "assets/screenshots/2026-11-13-1.9.0/update-dialog.png",
+    "sha256": "f9e0d2815bffe547f5474146a7884edf863db4bc955fd39fc8a5514222d8357f",
+    "source_commit": "440199a359fd2df2fd615e3222fb36afbc13427c",
+    "source_path": "docs/screenshots/2026-11-13-1.9.0/update-dialog.png",
+    "source_url": "https://github.com/cyberdeliaAI/tagcast/blob/440199a359fd2df2fd615e3222fb36afbc13427c/docs/screenshots/2026-11-13-1.9.0/update-dialog.png",
+    "original_filename": "Screenshot 2026-11-13 at 21.18.11.png",
+    "capture_date": "2026-11-13",
+    "captured_application_commit": null,
+    "observed_state": "Illustrative release offer, plain-text notes, Download update, Skip this version and automatic download unchecked.",
+    "attribution_inventory": "assets/attribution/2026-11-13-1.9.0.json"
+  },
+  "shot-935f51ac5ddb4bb2": {
+    "path": "assets/screenshots/2026-11-13-1.9.0/change-history.png",
+    "sha256": "935f51ac5ddb4bb26f83ed681b478ce211448ab643c0b65a4ea0ef6aa0b22cb6",
+    "source_commit": "440199a359fd2df2fd615e3222fb36afbc13427c",
+    "source_path": "docs/screenshots/2026-11-13-1.9.0/change-history.png",
+    "source_url": "https://github.com/cyberdeliaAI/tagcast/blob/440199a359fd2df2fd615e3222fb36afbc13427c/docs/screenshots/2026-11-13-1.9.0/change-history.png",
+    "original_filename": "Screenshot 2026-11-13 at 21.30.04.png",
+    "capture_date": "2026-11-13",
+    "captured_application_commit": null,
+    "observed_state": "History export/clear above entries; a cover entry is Checking and earlier genre entries are Saved; clear is disabled.",
+    "attribution_inventory": "assets/attribution/2026-11-13-1.9.0.json"
+  },
+  "shot-cc5327a449a2592c": {
+    "path": "assets/screenshots/2026-11-13-1.9.0/now-playing-lyrics.png",
+    "sha256": "cc5327a449a2592c04c4a6348cff79e2fd90ce6b5646c79ff5349717291a825f",
+    "source_commit": "440199a359fd2df2fd615e3222fb36afbc13427c",
+    "source_path": "docs/screenshots/2026-11-13-1.9.0/now-playing-lyrics.png",
+    "source_url": "https://github.com/cyberdeliaAI/tagcast/blob/440199a359fd2df2fd615e3222fb36afbc13427c/docs/screenshots/2026-11-13-1.9.0/now-playing-lyrics.png",
+    "original_filename": "Screenshot 2026-11-13 at 21.30.40.png",
+    "capture_date": "2026-11-13",
+    "captured_application_commit": null,
+    "observed_state": "Full Now playing page with queue, Devices, LRCLIB line lyrics and the spectrum.",
+    "attribution_inventory": "assets/attribution/2026-11-13-1.9.0.json"
+  },
+  "shot-b7e1072c5e9da394": {
+    "path": "assets/screenshots/2026-11-13-1.9.0/album-details.png",
+    "sha256": "b7e1072c5e9da3949dcde4f94740a73eca976d64907f8e26aa0920aa8d546400",
+    "source_commit": "440199a359fd2df2fd615e3222fb36afbc13427c",
+    "source_path": "docs/screenshots/2026-11-13-1.9.0/album-details.png",
+    "source_url": "https://github.com/cyberdeliaAI/tagcast/blob/440199a359fd2df2fd615e3222fb36afbc13427c/docs/screenshots/2026-11-13-1.9.0/album-details.png",
+    "original_filename": "Screenshot 2026-11-13 at 21.31.07.png",
+    "capture_date": "2026-11-13",
+    "captured_application_commit": null,
+    "observed_state": "Album hero and track list with compact Play, shuffle icon, Queue, Edit and More; album background is collapsed.",
+    "attribution_inventory": "assets/attribution/2026-11-13-1.9.0.json"
+  },
+  "shot-92a88f4c7179ef3b": {
+    "path": "assets/screenshots/2026-11-13-1.9.0/first-setup-playback.png",
+    "sha256": "92a88f4c7179ef3bc727b3743ada80314008989aa835ae74f8525895b274d35d",
+    "source_commit": "440199a359fd2df2fd615e3222fb36afbc13427c",
+    "source_path": "docs/screenshots/2026-11-13-1.9.0/first-setup-playback.png",
+    "source_url": "https://github.com/cyberdeliaAI/tagcast/blob/440199a359fd2df2fd615e3222fb36afbc13427c/docs/screenshots/2026-11-13-1.9.0/first-setup-playback.png",
+    "original_filename": "Screenshot 2026-11-13 at 21.31.49.png",
+    "capture_date": "2026-11-13",
+    "captured_application_commit": null,
+    "observed_state": "First setup Playback step with Premium Original selected, Gapless unchecked and explicit Save and continue.",
+    "attribution_inventory": "assets/attribution/2026-11-13-1.9.0.json"
+  },
+  "shot-004a2b83e252b6a5": {
+    "path": "assets/screenshots/2026-11-13-1.9.0/album-artists.png",
+    "sha256": "004a2b83e252b6a56a626f75007781296ee438511c16ebe2e3a3b810bc45e369",
+    "source_commit": "440199a359fd2df2fd615e3222fb36afbc13427c",
+    "source_path": "docs/screenshots/2026-11-13-1.9.0/album-artists.png",
+    "source_url": "https://github.com/cyberdeliaAI/tagcast/blob/440199a359fd2df2fd615e3222fb36afbc13427c/docs/screenshots/2026-11-13-1.9.0/album-artists.png",
+    "original_filename": "Screenshot 2026-11-13 at 21.32.21.png",
+    "capture_date": "2026-11-13",
+    "captured_application_commit": null,
+    "observed_state": "Album artists grid with Filters, fixed Name/Rating/Random controls and Continuous scroll.",
+    "attribution_inventory": "assets/attribution/2026-11-13-1.9.0.json"
+  },
+  "shot-143e7984c6362e9f": {
+    "path": "assets/screenshots/2026-11-13-1.9.0/theme-menu.png",
+    "sha256": "143e7984c6362e9fb1cb747e6c34d99c6f9c5b1b76606a97094cb10aa2f4bee2",
+    "source_commit": "440199a359fd2df2fd615e3222fb36afbc13427c",
+    "source_path": "docs/screenshots/2026-11-13-1.9.0/theme-menu.png",
+    "source_url": "https://github.com/cyberdeliaAI/tagcast/blob/440199a359fd2df2fd615e3222fb36afbc13427c/docs/screenshots/2026-11-13-1.9.0/theme-menu.png",
+    "original_filename": "Screenshot 2026-11-13 at 21.33.21.png",
+    "capture_date": "2026-11-13",
+    "captured_application_commit": null,
+    "observed_state": "Theme disclosure with Light/Dark/Auto, six built-in palettes and Amber Midnight under My themes.",
+    "attribution_inventory": "assets/attribution/2026-11-13-1.9.0.json"
+  },
+  "shot-c39210c08c0fbd2f": {
+    "path": "assets/screenshots/2026-11-13-1.9.0/albums-list.png",
+    "sha256": "c39210c08c0fbd2f568303403433d95535eecd5c27cbb7d1c7d4d4c5b8e18bb7",
+    "source_commit": "440199a359fd2df2fd615e3222fb36afbc13427c",
+    "source_path": "docs/screenshots/2026-11-13-1.9.0/albums-list.png",
+    "source_url": "https://github.com/cyberdeliaAI/tagcast/blob/440199a359fd2df2fd615e3222fb36afbc13427c/docs/screenshots/2026-11-13-1.9.0/albums-list.png",
+    "original_filename": "Screenshot 2026-11-13 at 21.34.49.png",
+    "capture_date": "2026-11-13",
+    "captured_application_commit": null,
+    "observed_state": "Albums list with fixed sort controls, Year selected, Filters, Continuous scroll and compact row actions.",
+    "attribution_inventory": "assets/attribution/2026-11-13-1.9.0.json"
+  },
+  "shot-18e252fe0fd02ac2": {
+    "path": "assets/screenshots/2026-11-13-1.9.0/1001-albums.png",
+    "sha256": "18e252fe0fd02ac232d473a4c54c4bf85b2d08cd39b828b07db948c9c73a931a",
+    "source_commit": "440199a359fd2df2fd615e3222fb36afbc13427c",
+    "source_path": "docs/screenshots/2026-11-13-1.9.0/1001-albums.png",
+    "source_url": "https://github.com/cyberdeliaAI/tagcast/blob/440199a359fd2df2fd615e3222fb36afbc13427c/docs/screenshots/2026-11-13-1.9.0/1001-albums.png",
+    "original_filename": "Screenshot 2026-11-13 at 21.35.50.png",
+    "capture_date": "2026-11-13",
+    "captured_application_commit": null,
+    "observed_state": "1001 Albums local results filtered to In your library, including Linked by you.",
+    "attribution_inventory": "assets/attribution/2026-11-13-1.9.0.json"
+  },
+  "shot-c09a7f4ebea90b57": {
+    "path": "assets/screenshots/2026-11-13-1.9.0/1001-albums-link.png",
+    "sha256": "c09a7f4ebea90b57ff3283d627abce7d6ea26c49dcf719cf688ff9a1325b16a8",
+    "source_commit": "440199a359fd2df2fd615e3222fb36afbc13427c",
+    "source_path": "docs/screenshots/2026-11-13-1.9.0/1001-albums-link.png",
+    "source_url": "https://github.com/cyberdeliaAI/tagcast/blob/440199a359fd2df2fd615e3222fb36afbc13427c/docs/screenshots/2026-11-13-1.9.0/1001-albums-link.png",
+    "original_filename": "Screenshot 2026-11-13 at 21.37.24.png",
+    "capture_date": "2026-11-13",
+    "captured_application_commit": null,
+    "observed_state": "Choose an album dialog for a local 1001 Albums link, with an available candidate and Use this album.",
+    "attribution_inventory": "assets/attribution/2026-11-13-1.9.0.json"
+  },
+  "shot-d9e7021bf3b8fd78": {
+    "path": "assets/screenshots/2026-11-13-1.9.0/milkdrop-ribbon.png",
+    "sha256": "d9e7021bf3b8fd781a7b2a958a3be05c71a27f859c291e874f7dd0f78b660252",
+    "source_commit": "440199a359fd2df2fd615e3222fb36afbc13427c",
+    "source_path": "docs/screenshots/2026-11-13-1.9.0/milkdrop-ribbon.png",
+    "source_url": "https://github.com/cyberdeliaAI/tagcast/blob/440199a359fd2df2fd615e3222fb36afbc13427c/docs/screenshots/2026-11-13-1.9.0/milkdrop-ribbon.png",
+    "original_filename": "Screenshot 2026-11-13 at 21.38.14.png",
+    "capture_date": "2026-11-13",
+    "captured_application_commit": null,
+    "observed_state": "Expanded Now playing with MilkDrop Ribbon selected and the shared transport/queue.",
+    "attribution_inventory": "assets/attribution/2026-11-13-1.9.0.json"
+  }
+}
