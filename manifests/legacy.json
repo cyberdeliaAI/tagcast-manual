@@ -1,0 +1,18 @@
+[
+  {
+    "path": "legacy/1.7.0/build_manual.py",
+    "sha256": "4748d79b6f6974100bf4f3fbed8572ce6d3f93cc0909165fa866c21db120fabd"
+  },
+  {
+    "path": "legacy/1.7.0/current_topics.py",
+    "sha256": "5cd470426ab09ef2104c131e6797dc05e1d6500a54026f3d4b9f1675fd916c36"
+  },
+  {
+    "path": "legacy/1.7.0/manifest.json",
+    "sha256": "a40af5a318ae64c0f6786614c8a407cf6018bd9fc6680f3bf58168677dc14508"
+  },
+  {
+    "path": "legacy/1.7.0/published-manifest.json",
+    "sha256": "39aa450ee54f993589bd9527bc98703296331a2f9a1dca75577aa1167f8a278a"
+  }
+]

@@ -1,0 +1,8 @@
+* text=auto eol=lf
+*.png binary
+*.ttf binary
+*.gz binary
+*.md whitespace=-blank-at-eol
+assets/fonts/OFL.txt -text -whitespace
+assets/attribution/** -text -whitespace
+legacy/** -text -whitespace

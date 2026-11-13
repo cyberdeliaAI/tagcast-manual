@@ -1,0 +1,112 @@
+{
+  "page_size": [
+    595.276,
+    841.89
+  ],
+  "margin": 48,
+  "colors": {
+    "INK": "#17313e",
+    "MUTED": "#526a77",
+    "TEAL": "#276b7d",
+    "PALE": "#eaf3f6",
+    "LINE": "#cfdee4",
+    "AMBER": "#a86a20"
+  },
+  "styles": {
+    "body": {
+      "fontName": "Guide",
+      "fontSize": 11,
+      "leading": 15.8,
+      "textColor": "INK",
+      "spaceAfter": 8,
+      "spaceBefore": 0
+    },
+    "small": {
+      "fontName": "Guide",
+      "fontSize": 9.7,
+      "leading": 13.7,
+      "textColor": "MUTED",
+      "spaceAfter": 7,
+      "spaceBefore": 0
+    },
+    "caption": {
+      "fontName": "Guide-Italic",
+      "fontSize": 8.7,
+      "leading": 11.8,
+      "textColor": "MUTED",
+      "spaceAfter": 12,
+      "spaceBefore": 6
+    },
+    "title": {
+      "fontName": "Guide-Bold",
+      "fontSize": 26,
+      "leading": 30,
+      "textColor": "INK",
+      "spaceAfter": 9,
+      "spaceBefore": 0
+    },
+    "lead": {
+      "fontName": "Guide",
+      "fontSize": 11.8,
+      "leading": 16.7,
+      "textColor": "MUTED",
+      "spaceAfter": 15,
+      "spaceBefore": 0
+    },
+    "h2": {
+      "fontName": "Guide-Bold",
+      "fontSize": 12.5,
+      "leading": 17,
+      "textColor": "TEAL",
+      "spaceAfter": 6,
+      "spaceBefore": 9,
+      "keepWithNext": true
+    },
+    "kicker": {
+      "fontName": "Guide-Bold",
+      "fontSize": 8.2,
+      "leading": 12,
+      "textColor": "TEAL",
+      "spaceAfter": 10,
+      "spaceBefore": 0,
+      "charSpace": 1.1
+    },
+    "cell": {
+      "fontName": "Guide",
+      "fontSize": 9.7,
+      "leading": 13.8,
+      "textColor": "INK",
+      "spaceAfter": 0,
+      "spaceBefore": 0
+    },
+    "cellhead": {
+      "fontName": "Guide-Bold",
+      "fontSize": 9.7,
+      "leading": 13.8,
+      "textColor": "INK",
+      "spaceAfter": 0,
+      "spaceBefore": 0
+    },
+    "note": {
+      "fontName": "Guide",
+      "fontSize": 9.4,
+      "leading": 13.5,
+      "textColor": "INK",
+      "spaceAfter": 0,
+      "spaceBefore": 0
+    },
+    "toc": {
+      "fontName": "Guide",
+      "fontSize": 9.5,
+      "leading": 12.6,
+      "textColor": "INK",
+      "spaceAfter": 0,
+      "spaceBefore": 0
+    }
+  },
+  "font_width_overrides": {
+    "Bold": {
+      "183": 333.0078125
+    }
+  }
+}

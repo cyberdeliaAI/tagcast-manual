@@ -1,0 +1,8 @@
+{
+  "original_pdf_sha256": "14cd59bcfa8249d1a20c6ff220525b1e412e61c67af35c03eefe47ff7be707fb",
+  "candidate_pdf_sha256": "7b0a384006e6f71f114ee3424f75b286a81f3b7fd83ae30a06c458a4e29a8bce",
+  "render_dpi": 96,
+  "font_substitution": "Bundled Liberation Sans replaces system Arial",
+  "layout_tolerance_pt": 0.002,
+  "policy": "Exact text, links, screenshot bytes and placement; explicit font glyph substitution"
+}

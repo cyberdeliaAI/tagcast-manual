@@ -1,0 +1,365 @@
+{
+  "version": "1.7.0",
+  "source_commit": "9b47dae9ba917da0bcdfc93b8d6fa52c0c23c900",
+  "wiki_source_commit": "14d3e9839bf83cf8029ad8fc0084255ed251e2c8",
+  "release_commit": "a2493c85639780a9ca2b2a7121db85605b659c92",
+  "pages": 52,
+  "topics": 50,
+  "bookmarks": {
+    "contents": 2,
+    "topic-0": 3,
+    "topic-1": 4,
+    "topic-2": 5,
+    "topic-3": 6,
+    "topic-4": 7,
+    "topic-5": 8,
+    "topic-6": 9,
+    "topic-7": 10,
+    "topic-8": 11,
+    "topic-9": 12,
+    "topic-10": 13,
+    "topic-11": 14,
+    "topic-12": 15,
+    "topic-13": 16,
+    "topic-14": 17,
+    "topic-15": 18,
+    "topic-16": 19,
+    "topic-17": 20,
+    "topic-18": 21,
+    "topic-19": 22,
+    "topic-20": 23,
+    "topic-21": 24,
+    "topic-22": 25,
+    "topic-23": 26,
+    "topic-24": 27,
+    "topic-25": 28,
+    "topic-26": 29,
+    "topic-27": 30,
+    "topic-28": 31,
+    "topic-29": 32,
+    "topic-30": 33,
+    "topic-31": 34,
+    "topic-32": 35,
+    "topic-33": 36,
+    "topic-34": 37,
+    "topic-35": 38,
+    "topic-36": 39,
+    "topic-37": 40,
+    "topic-38": 41,
+    "topic-39": 42,
+    "topic-40": 43,
+    "topic-41": 44,
+    "topic-42": 45,
+    "topic-43": 46,
+    "topic-44": 47,
+    "topic-45": 48,
+    "topic-46": 49,
+    "topic-47": 50,
+    "topic-48": 51,
+    "topic-49": 52
+  },
+  "pagination_mismatches": {},
+  "pdf": {
+    "file": "Tagcast-1.7.0-User-Manual.pdf",
+    "bytes": 20986722,
+    "sha256": "14cd59bcfa8249d1a20c6ff220525b1e412e61c67af35c03eefe47ff7be707fb"
+  },
+  "image_uses": [
+    {
+      "source": "docs/screenshots/2026-11-11-manual/connect-ibroadcast.png",
+      "crop": null,
+      "caption": "1.7.0: Tagcast connection dialog; sign-in starts only after the explicit button.",
+      "original_sha256": "049aafcc2b4472a1212770b37d63f5fc92f56861e1e9d30acddc93bab6631be9"
+    },
+    {
+      "source": "docs/screenshots/2026-11-11-interface/albums-continuous-random.png",
+      "crop": null,
+      "caption": "1.7.0: Albums with Continuous scroll and Random order.",
+      "original_sha256": "12b011a6f463f740da4204595eb00090114af52281129febabc8f4c9dc540145"
+    },
+    {
+      "source": "docs/screenshots/2026-11-11-interface/album-full-house.png",
+      "crop": null,
+      "caption": "1.7.0: album actions, native tags and attributed album information.",
+      "original_sha256": "e2ed73c70bfd6f58dd49a71e3e9e1d95c363f60eacd692da67c22a4ec7972a32"
+    },
+    {
+      "source": "docs/screenshots/2026-11-11-interface/albums-continuous-random.png",
+      "crop": null,
+      "caption": "1.7.0: browsing order, continuous loading and playback are separate controls.",
+      "original_sha256": "12b011a6f463f740da4204595eb00090114af52281129febabc8f4c9dc540145"
+    },
+    {
+      "source": "docs/screenshots/2026-11-11-guide/overview-redacted.png",
+      "crop": null,
+      "caption": "1.7.0: Overview with the maintainer's supplied account redaction retained. Global service status is separate from this account's connection.",
+      "original_sha256": "14c9c453f9218c8cf6189fbd69247c33e2823a4612e539fcb0da219d398aff73"
+    },
+    {
+      "source": "docs/screenshots/2026-11-11-manual/1001-not-found.png",
+      "crop": null,
+      "caption": "1.7.0: Not found reference entries. The header's Checking saves indicator is a separate operation.",
+      "original_sha256": "27f75d869d126e5e71352c8093cde0e72974eaa3243e70b89803ce6246e30299"
+    },
+    {
+      "source": "docs/screenshots/2026-11-11-manual/1001-manual-match.png",
+      "crop": null,
+      "caption": "1.7.0: candidate editions before a local link is selected; this does not edit music metadata.",
+      "original_sha256": "2eb670cded16d25e9873fef23c897e5ebd53811ae8d5c79d98e9f0a64db237e5"
+    },
+    {
+      "source": "docs/screenshots/2026-11-11-manual/album-mobile.png",
+      "crop": null,
+      "caption": "1.7.0 maintainer capture: narrow Light album layout; complete original frame.",
+      "original_sha256": "4fcbdb84239ffad78021ea70d47849f3ee8995ab332c7fb915184adcdf0b1f22"
+    },
+    {
+      "source": "docs/screenshots/2026-11-11-interface/now-playing-lyrics-queue.png",
+      "crop": null,
+      "caption": "1.7.0: listening page, lyrics, queue and compact controls share one player.",
+      "original_sha256": "62f3f7d4fcfcd99dee5461e9087e81be68e9c023c6b2c25a71e35c34557dd6c3"
+    },
+    {
+      "source": "docs/screenshots/2026-11-11-interface/fullscreen-cd-lyrics.png",
+      "crop": null,
+      "caption": "1.7.0: Cover / CD switches the presentation; playback and the queue remain shared.",
+      "original_sha256": "eb2c5802a99b1f4ce2f86650e29689da17eb62fa10ce13d4b2932a88fcdd72ef"
+    },
+    {
+      "source": "docs/screenshots/2026-11-11-guide/mini-player.png",
+      "crop": null,
+      "caption": "1.7.0: native Mini Player; Pin and return to the main window stay separate.",
+      "original_sha256": "f74f62edf3a5f3a918a16dbf028397c0d4b8aa4e4b149be89623775f064e2ff7"
+    },
+    {
+      "source": "docs/screenshots/2026-11-11-visualizations/milkdrop-aurora.png",
+      "crop": null,
+      "caption": "1.7.0 - full-frame example.",
+      "original_sha256": "c8b1ea49e7a73ba4b8aca1f4e336fa0e227963511b8cca939a6bddad5dfde198"
+    },
+    {
+      "source": "docs/screenshots/2026-11-11-visualizations/milkdrop-orbit.png",
+      "crop": null,
+      "caption": "1.7.0 - full-frame example.",
+      "original_sha256": "45ed3429f0c33c1efad0424a10f96d8f00180574429c6e229a6e83ddfb2e6b7c"
+    },
+    {
+      "source": "docs/screenshots/2026-11-11-visualizations/milkdrop-ribbons.png",
+      "crop": null,
+      "caption": "1.7.0 - full-frame example.",
+      "original_sha256": "6e011d78801b82572e50a4c609ff6c61be9c86c2323c3d4ceba145c8039b12a8"
+    },
+    {
+      "source": "docs/screenshots/2026-11-11-visualizations/led-spectrum.png",
+      "crop": null,
+      "caption": "1.7.0 - full-frame example.",
+      "original_sha256": "7be24295e18243ec809b308beebf3f850dcdc638a845b49e786c178f7fb08c89"
+    },
+    {
+      "source": "docs/screenshots/2026-11-11-visualizations/oscilloscope.png",
+      "crop": null,
+      "caption": "1.7.0 - full-frame example.",
+      "original_sha256": "74f852a45fe829b370486c652860e3b98b1984fc37a438e2a5436ec09c64919c"
+    },
+    {
+      "source": "docs/screenshots/2026-11-11-visualizations/neon-ring.png",
+      "crop": null,
+      "caption": "1.7.0 - full-frame example.",
+      "original_sha256": "a9e1d715b89aea8da1c88f3604492ab6991f0a5308e9916e3331256ba8a4f9b6"
+    },
+    {
+      "source": "docs/screenshots/2026-11-11-visualizations/starfield.png",
+      "crop": null,
+      "caption": "1.7.0 - full-frame example.",
+      "original_sha256": "6ebfd09895b9ebf1f2f1982340eb7a172a125aeed516213d222c8c977e1b9535"
+    },
+    {
+      "source": "docs/screenshots/2026-11-11-visualizations/waterfall.png",
+      "crop": null,
+      "caption": "1.7.0 - full-frame example.",
+      "original_sha256": "d0f0560662cf41456029a800c12bc7ffa8ad0a77a961785a83a5a1a254e78ae7"
+    },
+    {
+      "source": "docs/screenshots/2026-11-11-manual/tag-manager.png",
+      "crop": null,
+      "caption": "1.7.0: tag assignments with Keep as is; no changes are selected in this capture.",
+      "original_sha256": "922eb860c1077c87e7a8e943ee53c63c981d00b8126adbe4dcc2a8c0c966fb4e"
+    },
+    {
+      "source": "docs/screenshots/2026-11-11-guide/playlist-details.png",
+      "crop": null,
+      "caption": "1.7.0: playlist detail with playback, edit and reorder actions.",
+      "original_sha256": "b7a6c1a6c1a0cd5dc7146eb61167d44b9dc09277d8895e544443651dedaa01f1"
+    },
+    {
+      "source": "docs/screenshots/2026-11-11-guide/playlist-import-columns.png",
+      "crop": null,
+      "caption": "1.7.0: CSV column mapping; these are local records, not a fetched URL result.",
+      "original_sha256": "00d10a65a8b54f27175ce944dfb5ad7482099039471cc6a23f37de3c767f3a01"
+    },
+    {
+      "source": "docs/screenshots/2026-11-11-guide/playlist-import-choose.png",
+      "crop": null,
+      "caption": "1.7.0: compare recording/edition differences before a manual match.",
+      "original_sha256": "12ff82458113edaf0877fa49cf9b7caeba05c80f3fba7ee953b6a0a204313b41"
+    },
+    {
+      "source": "docs/screenshots/2026-11-11-guide/playlist-order.png",
+      "crop": null,
+      "caption": "1.7.0: original positions with zero changes; Save order is disabled until a change is made.",
+      "original_sha256": "1ca70493c2c74b4961c0f458c94bf2c4ff317a7ce5bc7862e41c186d15bff8c4"
+    },
+    {
+      "source": "docs/screenshots/2026-11-11-guide/favourites-light.png",
+      "crop": null,
+      "caption": "1.7.0: Favourites in Light appearance; the tabs distinguish track, album and artist collections.",
+      "original_sha256": "edc6611c13afab745577658180fd559e35cb0f1734c95aea6c7d56f2c8baa405"
+    },
+    {
+      "source": "docs/screenshots/2026-11-11-interface/editor-album.png",
+      "crop": null,
+      "caption": "1.7.0: album draft with online suggestions and additional artist credits.",
+      "original_sha256": "28899997d95e1a6979bc1c3c9c44f5fa2b3f1684c3c2c08222c14f12abec7c37"
+    },
+    {
+      "source": "docs/screenshots/2026-11-11-guide/editor-tracks.png",
+      "crop": null,
+      "caption": "1.7.0: selected track fields remain part of the album's shared metadata review.",
+      "original_sha256": "30f14c140af1c957ab4a9c089314ecf5d44e2d11b8dab9a78eb6e7bce61f3656"
+    },
+    {
+      "source": "docs/screenshots/2026-11-11-manual/composer-review.png",
+      "crop": null,
+      "caption": "1.7.0: proposed composer change on 37 tracks; no save is confirmed by this review.",
+      "original_sha256": "6aed833d144eca0970b8f1a68ab24f9ebf7005463167ee4a0709bc68eebef558"
+    },
+    {
+      "source": "docs/screenshots/2026-11-11-guide/album-cover-review.png",
+      "crop": null,
+      "caption": "1.7.0: current/proposed album covers. The explicit Save control is further down the dialog.",
+      "original_sha256": "c425be414c7cdefcdf270f8618691fe93c443d3482070ce8bc15f5375fc4230d"
+    },
+    {
+      "source": "docs/screenshots/2026-11-11-manual/composer-confirmed.png",
+      "crop": null,
+      "caption": "1.7.0: track composer labels and the toast report 37 saved records.",
+      "original_sha256": "ea56e214882e50f7a76c2dc42c59bd75d24b2d0b6ac64644e92da443d1d34967"
+    },
+    {
+      "source": "docs/screenshots/2026-11-11-manual/artwork-saving.png",
+      "crop": null,
+      "caption": "1.7.0: a separate artwork job is still saving disc 2 of 2. This frame is not final confirmation.",
+      "original_sha256": "4c147e15841e3629602d96b0a8c2ca38cedf60b93088f0b63e44fafd79939170"
+    },
+    {
+      "source": "docs/screenshots/2026-11-11-interface/fullscreen-cover-lyrics.png",
+      "crop": null,
+      "caption": "1.7.0: LRCLIB line-synchronised display with provider attribution; no native save is performed.",
+      "original_sha256": "27dd9b64a7866141acd2fbb7f1c26d0c08573e65d6de1cf46c75e58a46a0874e"
+    },
+    {
+      "source": "docs/screenshots/2026-11-11-guide/lyrics-import-matching.png",
+      "crop": null,
+      "caption": "1.7.0: match LRC/TXT files to album tracks; this is preparation, not saving.",
+      "original_sha256": "dd6a7f880aadba601d9e9aa286123da22793c8490dd17673a1e1315f43582fdd"
+    },
+    {
+      "source": "docs/screenshots/2026-11-11-guide/lyrics-import-review.png",
+      "crop": null,
+      "caption": "1.7.0: linked tracks are Ready for the separate lyrics decision; no completed save is shown.",
+      "original_sha256": "e2db50ce9d3ff4b5812594c7b457de4fb4e6be7855292631c1f9bf138a360416"
+    },
+    {
+      "source": "docs/screenshots/2026-10-22/cleanup-genre-labels.png",
+      "crop": [
+        0.11,
+        0.06,
+        0.91,
+        0.95
+      ],
+      "caption": "Earlier development interface: choose one exact genre label and proposed replacements. Preparing this review changes nothing. Cropped detail from the original screenshot.",
+      "original_sha256": "3ff4bc7fe01f1b43d7f7db201ca4b934b723f28715e2131be22a5c4c14f184f4"
+    },
+    {
+      "source": "docs/screenshots/2026-10-28-year-review/year-comparison.png",
+      "crop": [
+        0.1,
+        0.05,
+        0.89,
+        0.955
+      ],
+      "caption": "Development example with fictional metadata, captured before 1.1.0. The year choice is explicit; it does not automatically use the oldest or majority value. Cropped detail from the original screenshot.",
+      "original_sha256": "4beb87f804c20fecb37b23e8d5f56563ca68bb83caf3ee9cafec0e6591c84f62"
+    },
+    {
+      "source": "docs/screenshots/duplicate-tracks-upload-suggestions.png",
+      "crop": [
+        0.17,
+        0.19,
+        0.98,
+        0.93
+      ],
+      "caption": "Earlier-interface example: upload-day/format groups help compare copies. Suggestions are selected only when you choose them; still inspect the review. Cropped detail from the original screenshot.",
+      "original_sha256": "53380e335d8db62d6df712d5b2fc1f9b72453d912b6052e8ab53939861472a45"
+    },
+    {
+      "source": "docs/screenshots/2026-10-27-album-merge/destination-album.png",
+      "crop": null,
+      "caption": "Local test, 27 October: four fragments of The 8bits of Christmas, with the existing Various Artists entry chosen as destination.",
+      "original_sha256": "733fdb16204399c8c2de33c54f2bb575295f5a703b820dadf1a042a8de489f54"
+    },
+    {
+      "source": "docs/screenshots/2026-11-07-album-split/split-selection.png",
+      "crop": null,
+      "caption": "Earlier 1.6.5 capture: inspect selected and retained tracks before splitting. Current text describes 1.7.0.",
+      "original_sha256": "ef0ed24bf1888e472daa245626920035b30d6ac9b94225a6f67c11f83e49ccbe"
+    },
+    {
+      "source": "docs/screenshots/2026-11-11-guide/upload-review.png",
+      "crop": null,
+      "caption": "1.7.0: reviewed files are Ready to upload; no transfer has started in this image.",
+      "original_sha256": "6bc242429938b5dd090196dd5ac0251c235b7a64864041a614e08de9d7edd3a0"
+    },
+    {
+      "source": "docs/screenshots/2026-11-11-guide/download-review.png",
+      "crop": null,
+      "caption": "1.7.0: reviewed album/source/destination; the page says nothing has been downloaded yet.",
+      "original_sha256": "244bb021650e39c12f54ebb3a44d4f5725917cb0303400b7c10c3d5a3aa280c2"
+    },
+    {
+      "source": "docs/screenshots/2026-11-11-guide/settings-interface.png",
+      "crop": null,
+      "caption": "1.7.0: Interface settings; language and library-banner preferences.",
+      "original_sha256": "71837cadebf83389d98f500bb7401fae75caa97ebd4fe459a448b5c899aeb1bd"
+    },
+    {
+      "source": "docs/screenshots/2026-11-11-guide/settings-playback.png",
+      "crop": null,
+      "caption": "1.7.0: lower Playback settings for streaming/history and device queues; the Gapless switch is above this view.",
+      "original_sha256": "85f963f9384dfe3b4f921212f550d25e8993a29405c2295e080e4442281cf38d"
+    },
+    {
+      "source": "docs/screenshots/2026-11-11-guide/settings-appearance.png",
+      "crop": null,
+      "caption": "1.7.0: custom theme editor; draft preview is separate from the applied theme.",
+      "original_sha256": "88f0b1c7c522486f2afaa9fb238656cafc737233b4a958e8d2984d44b266a831"
+    }
+  ],
+  "validation": {
+    "pages": 52,
+    "topics": 50,
+    "bookmarks": 51,
+    "figure_uses": 44,
+    "new_originals_used": 8,
+    "external_link_annotations": 110,
+    "all_bookmarks_and_contents_destinations_valid": true,
+    "page_bounds_and_text_encoding": "passed",
+    "visual_review": "All 52 latest rendered pages reviewed in nine contact sheets; no clipping or overlap found.",
+    "old_140_pdf_unchanged": true,
+    "bytes": 20986722,
+    "sha256": "14cd59bcfa8249d1a20c6ff220525b1e412e61c67af35c03eefe47ff7be707fb",
+    "source_commit": "9b47dae9ba917da0bcdfc93b8d6fa52c0c23c900",
+    "wiki_source_commit": "14d3e9839bf83cf8029ad8fc0084255ed251e2c8",
+    "release_commit": "a2493c85639780a9ca2b2a7121db85605b659c92"
+  }
+}

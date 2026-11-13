@@ -1,0 +1,35 @@
+name: Validate manual
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  reference:
+    name: Reference edition (${{ matrix.os }})
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-24.04, macos-15]
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+      - uses: astral-sh/setup-uv@d0cc045d04ccac9d8b7881df0226f9e82c39688e # v6.8.0
+        with:
+          version: '0.13.0'
+      - run: uv sync --frozen --python 3.12.14
+      - run: uv run --frozen ruff check src tools tests
+      - run: uv run --frozen python -m unittest discover -s tests -v
+      - run: uv run --frozen tagcast-manual verify
+      - name: Retain review artifacts (no publication)
+        if: always()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: manual-review-${{ matrix.os }}
+          path: output/pdf/
+          retention-days: 14
